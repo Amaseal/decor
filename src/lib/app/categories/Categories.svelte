@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type { PageData } from '.svelte-kit/types/src/routes/(app)/$types';
+	import type { Category, Image } from '@prisma/client';
 
-	export let data: PageData;
+	export let categories: (Category & { image: Image | null })[];
 </script>
 
 <section>
@@ -14,10 +14,10 @@
 		<p>Explore our wide product selection</p>
 
 		<div class="grid">
-			{#each data.categories as category (category.id)}
+			{#each categories as category (category.id)}
 				<a href="/{category.slug}">
 					<div class="img-container">
-						<img src={category.images[0].imgLarge} alt="" />
+						<img src={category.image?.imgLarge} alt="" />
 					</div>
 
 					<h3>{category.title}</h3>

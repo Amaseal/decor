@@ -1,10 +1,11 @@
 <script lang="ts">
-	import type { PageData } from '.svelte-kit/types/src/routes/(app)/$types';
+	import type { Category, Image } from '@prisma/client';
+
 	import { Hamburger } from 'svelte-hamburgers';
 	import { fly } from 'svelte/transition';
 
-	export let data: PageData;
-	console.log(data.categories[0].images);
+	export let categories: (Category & { image: Image | null })[];
+
 	let open = false;
 </script>
 
@@ -18,10 +19,10 @@
 			<nav transition:fly={{ y: -200, duration: 500 }}>
 				<div class="container">
 					<div class="products flex gap small">
-						{#each data.categories as category (category.id)}
+						{#each categories as category (category.id)}
 							<a href="/{category.slug}">
 								<div class="img-container">
-									<img class="categoryimg" src={category.images[0].imgLarge} alt="" />
+									<img class="categoryimg" src={category.image?.imgLarge} alt="" />
 								</div>
 
 								{category.title.toUpperCase()}

@@ -34,7 +34,7 @@ body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 img,
@@ -132,20 +132,34 @@ p{
 .gap.small{
     gap: var(--size-s);
 }
+.gap.smaller{
+    gap: var(--size-xs);
+}
 
 .button{
     background-color: var(--primary-color);
     color: var(--background);
-    padding: var(--size-xs) var(--size-s);
+    text-transform: uppercase;
+    line-height: 1;
+    padding:  var(--size-s) calc(var(--size-s) + var(--size-xs));
     border-radius: var(--size-xs);
     font-weight: 300;
     letter-spacing: 0.10rem;
     border: none;
     transition: all 0.2s ease;
     cursor: pointer;
+    font-size: var(--size-s);
 }
 .button:hover{
     background-color: var(--secondary-color);
+}
+.button.danger{
+    background-color: #693636;
+   
+}
+
+.button.danger:hover{
+    background-color: #962D2D;
 }
 
 a{

@@ -11,7 +11,7 @@
 	<title>SG Home Decor</title>
 </svelte:head>
 
-<Header {data} />
+<Header categories={data.categories} />
 <Hero />
 <About />
-<Categories {data} />
+<Categories categories={data.categories} />
