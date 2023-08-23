@@ -1,23 +1,23 @@
 <script lang="ts">
-	import type { Category, Image } from '@prisma/client';
+	import type { ProductSection } from '../../../types/types';
 
-	export let categories: (Category & { image: Image | null })[];
+	export let data: ProductSection;
 </script>
 
 <section>
 	<div class="container">
 		<div class="flex spaced align">
-			<h2>Products</h2>
-			>
+			<h2>{data.title}</h2>
+
 			<a href="/products" class="button">All products</a>
 		</div>
-		<p>Explore our wide product selection</p>
+		<p>{data.description}</p>
 
 		<div class="grid">
-			{#each categories as category (category.id)}
+			{#each data.categories as category (category.id)}
 				<a href="/{category.slug}">
 					<div class="img-container">
-						<img src={category.image?.imgLarge} alt="" />
+						<img src={category.image.formats.small?.url} alt="" />
 					</div>
 
 					<h3>{category.title}</h3>
@@ -49,7 +49,7 @@
 
 	.grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 		gap: var(--size-m);
 	}
 	a:hover > .img-container > img {
@@ -69,5 +69,14 @@
 		overflow: hidden;
 		border-radius: var(--size-s);
 		margin-bottom: var(--size-xs);
+	}
+	@media only screen and (max-width: 900px) {
+		.container {
+			padding: var(--size-l) 10px;
+		}
+		p {
+			text-align: center;
+			margin-top: var(--size-m);
+		}
 	}
 </style>

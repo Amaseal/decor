@@ -1,16 +1,22 @@
+<script lang="ts">
+	import type { Hero } from '../../../types/types';
+
+	export let data: Hero;
+</script>
+
 <section>
 	<div class="container flex gap align">
-		<img src="../hero.png" alt="" />
+		<img src={data.image.formats.large?.url || data.image.url} alt="" />
 		<div class="flex collumn left full-height">
-			<h1>WOODEN INTERIOR PRODUCTS</h1>
+			<h1>{data.title}</h1>
 			<p>
-				We create beautifully designed things - decors, craft kits and furniture for nicer living.
+				{data.description}
 			</p>
-			<button class="button">PRODUCTS</button>
+			<a href="/products" class="button">PRODUCTS</a>
 			<div class="flex tags">
-				<p>LOVE FOR WOOD & DETAIL</p>
-				<p>HANDMADE</p>
-				<p>NICER LIVING</p>
+				{#each data.quotes as quote}
+					<p class="flex align">{quote.quote}</p>
+				{/each}
 			</div>
 		</div>
 	</div>
@@ -18,12 +24,12 @@
 
 <style>
 	.container {
-		padding-top: var(--size-xl);
+		padding-top: var(--size-l);
 		padding-bottom: var(--size-l);
 	}
 
 	section {
-		height: 100vh;
+		height: calc(100vh - 76px);
 		background-color: var(--background-accent);
 	}
 	h1,
@@ -50,8 +56,25 @@
 		padding: var(--size-s);
 		background-color: var(--background);
 		font-family: 'Playfair Display', serif;
-		font-size: 1rem;
+		font-size: clamp(0.7rem, 0.9vw, 1rem);
 		text-align: center;
 		margin-bottom: 0;
+	}
+	@media only screen and (max-width: 900px) {
+		.flex {
+			flex-direction: column;
+		}
+		img {
+			width: 100%;
+		}
+		section {
+			height: auto;
+		}
+		.tags {
+			flex-direction: row;
+		}
+		.button {
+			margin-bottom: var(--size-m);
+		}
 	}
 </style>

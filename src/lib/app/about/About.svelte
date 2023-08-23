@@ -1,17 +1,22 @@
+<script lang="ts">
+	import type { About } from '../../../types/types';
+
+	export let data: About;
+</script>
+
 <section>
-	<div class="container flex">
+	<div class="container flex gap">
 		<div class="flex text collumn left justify">
-			<h2>About us</h2>
+			<h2>{data.title}</h2>
 			<p>
-				SG Home Décor part of our family business. Everyday we produce high quality bespoke
-				carpentry and joinery from wood and other materials.
+				{data.introduction}
 			</p>
-			<button class="button">...Read more</button>
+			<a href="/about" class="button">...Read more</a>
 		</div>
 		<div class="images">
-			<img src="../about-1.png" alt="family" />
-			<img src="../about-2.png" alt="company" />
-			<img src="../about-3.png" alt="team" />
+			{#each data.part as part}
+				<img src={part.image.formats.medium?.url} alt="family" />
+			{/each}
 		</div>
 	</div>
 </section>
@@ -42,10 +47,29 @@
 		height: 100%;
 		width: 100%;
 		object-fit: cover;
+		filter: grayscale();
 		border-radius: var(--size-s);
 	}
 
 	img:first-of-type {
 		grid-row: span 2;
+	}
+	@media only screen and (max-width: 900px) {
+		.flex {
+			flex-direction: column;
+		}
+		.text {
+			width: 100%;
+		}
+		.images {
+			width: 100%;
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr 1fr 1fr;
+			gap: var(--size-s);
+		}
+		.container {
+			padding: var(--size-l) 10px;
+		}
 	}
 </style>

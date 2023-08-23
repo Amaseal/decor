@@ -1,28 +1,31 @@
 <script lang="ts">
-	import type { Category, Image } from '@prisma/client';
-
 	import { Hamburger } from 'svelte-hamburgers';
 	import { fly } from 'svelte/transition';
+	import type { Category } from '../../../types/types';
 
-	export let categories: (Category & { image: Image | null })[];
+	export let categories: Category[];
 
 	let open = false;
+	let width;
 </script>
 
-<header>
+<header bind:clientWidth={width}>
 	<div class="container flex align">
 		<div class="burger flex align">
 			<Hamburger bind:open type="spring" --color="#2F434B" --padding="18px" />
 		</div>
-
 		{#if open}
 			<nav transition:fly={{ y: -200, duration: 500 }}>
 				<div class="container">
 					<div class="products flex gap small">
 						{#each categories as category (category.id)}
-							<a href="/{category.slug}">
+							<a href="/{category.slug}" on:click={() => (open = false)}>
 								<div class="img-container">
-									<img class="categoryimg" src={category.image?.imgLarge} alt="" />
+									<img
+										class="categoryimg"
+										src={category.image?.formats.small?.url || category.image.url}
+										alt=""
+									/>
 								</div>
 
 								{category.title.toUpperCase()}
@@ -31,22 +34,39 @@
 					</div>
 					<div class="links flex gap small">
 						<div class="wrapper flex align">
-							<a href="/about">About</a>
+							<a on:click={() => (open = false)} href="/about">About</a>
 						</div>
 						<div class="wrapper flex align">
-							<a href="/contacts">Contacts</a>
+							<a on:click={() => (open = false)} href="/contacts">Contacts</a>
 						</div>
 					</div>
 				</div>
 			</nav>
 		{/if}
-		<a href="/">
-			<img src="../sg_logo.svg" alt="SG Home decor logo" />
+		<a href="/" on:click={() => (open = false)}>
+			<img class="logo" src="../sg_logo.svg" alt="SG Home decor logo" />
 		</a>
+
+		<a href="/products" class="button">Products</a>
 	</div>
 </header>
 
 <style>
+	.button {
+		margin-left: auto;
+		color: white;
+		font-weight: 300;
+		letter-spacing: 0;
+	}
+	.button:hover {
+		letter-spacing: 0;
+	}
+	.container {
+		padding: 0 10px;
+	}
+	img {
+		width: auto;
+	}
 	.wrapper {
 		width: 5%;
 	}
@@ -58,7 +78,7 @@
 		margin-bottom: var(--size-s);
 		border-bottom: 1px solid var(--primary-color);
 	}
-	.flex > a {
+	nav .flex > a {
 		width: 100%;
 	}
 	.img-container {
@@ -78,18 +98,18 @@
 	}
 	.burger {
 		position: relative;
-		z-index: 99999;
+		z-index: 999;
 	}
 	img {
-		height: 40px;
+		height: 35px;
 	}
 	header {
-		position: fixed;
+		position: sticky;
 		top: 0;
 		width: 100%;
 		background-color: var(--background-accent);
-		padding: var(--size-s) 0;
-		z-index: 9999;
+		padding: var(--size-xs) 0;
+		z-index: 999;
 	}
 
 	nav {
@@ -110,5 +130,30 @@
 	}
 	a:hover {
 		letter-spacing: 0.05rem;
+	}
+
+	@media only screen and (max-width: 900px) {
+		.container {
+			padding: 0 10px;
+		}
+		.logo {
+			height: 40px;
+		}
+		nav {
+			padding: var(--size-s) 0;
+		}
+		nav .flex {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		}
+
+		.categoryimg {
+			height: 125px;
+		}
+	}
+	@media only screen and (max-width: 500px) {
+		.button {
+			display: none;
+		}
 	}
 </style>
