@@ -1,0 +1,59 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+# This line should *not* be indented
+publish_mode: editorial_workflow
+
+# These lines should *not* be indented
+media_folder: 'static/uploads' # Media files will be stored in the repo under static/uploads
+public_folder: '/uploads' # The src attribute for uploaded media will begin with /uploads
+
+collections:
+  - name: 'categories' # Used in routes, e.g., /admin/collections/blog
+    label: 'Categories' # Used in the UI
+    folder: 'src/categories/posts' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - {
+          label: 'Products',
+          name: 'products',
+          widget: 'relation',
+          collection: 'products',
+          value_field: 'title',
+          search_fields: 'title',
+          multiple: true
+        }
+      - {
+          label: 'Tags',
+          name: 'tags',
+          widget: 'relation',
+          collection: 'tags',
+          value_field: 'title',
+          search_fields: 'title',
+          multiple: true
+        }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Thumbnail Photo', name: 'thumbnail', widget: 'image' }
+      - { label: 'Featured Photo', name: 'featured', widget: 'image' }
+      - { label: 'Info', name: 'info', widget: 'markdown' }
+  - name: 'tags' # Used in routes, e.g., /admin/collections/blog
+    label: 'Tags' # Used in the UI
+    folder: 'src/tags/posts' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+  - name: 'products' # Used in routes, e.g., /admin/collections/blog
+    label: 'Products' # Used in the UI
+    folder: 'src/products/posts' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
+      - { label: 'Title', name: 'title', widget: 'string' }
