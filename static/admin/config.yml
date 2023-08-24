@@ -2,9 +2,6 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 
-# This line should *not* be indented
-publish_mode: editorial_workflow
-
 # These lines should *not* be indented
 media_folder: 'static/uploads' # Media files will be stored in the repo under static/uploads
 public_folder: '/uploads' # The src attribute for uploaded media will begin with /uploads
@@ -18,7 +15,13 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'markdown' }
+      - {
+          label: 'Description Images',
+          name: 'description_images',
+          widget: 'list',
+          field: { label: 'Image', name: image, widget: image }
+        }
       - {
           label: 'Products',
           name: 'products',
@@ -37,10 +40,14 @@ collections:
           search_fields: ['title'],
           multiple: true
         }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Thumbnail Photo', name: 'thumbnail', widget: 'image' }
-      - { label: 'Featured Photo', name: 'featured', widget: 'image' }
+      - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Info', name: 'info', widget: 'markdown' }
+      - {
+          label: 'Info Images',
+          name: 'info_images',
+          widget: 'list',
+          field: { label: 'Image', name: image, widget: image }
+        }
   - name: 'tags' # Used in routes, e.g., /admin/collections/blog
     label: 'Tags' # Used in the UI
     folder: 'src/tags/posts' # The path to the folder where the documents are stored
