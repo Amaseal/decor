@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: CANDLE HOLDERS “HOUSE”
+order: 1
 description: Each wooden house is made of solid wood- pine or oak. Each is
   naturally beautiful, it may contain natural irregularities and discolorations,
   you can see a wooden pattern under the paint. Copper tube adds additional
@@ -9,7 +10,7 @@ description: Each wooden house is made of solid wood- pine or oak. Each is
   Christmas and Advent time. This is a really beautiful gift for yourself, your
   loved ones, friends, and colleagues.
 description_images:
-  - /uploads/candle-holders-houses-otrs-variants-1-.jpg
+  - /images/light-blue-1-.jpg
   - /uploads/_1044012-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
   - /uploads/_1044008-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
 products:
