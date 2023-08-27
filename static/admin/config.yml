@@ -45,24 +45,24 @@ collections:
             widget: "object"
             colapsed: false
             fields:
-              - { label: "Source", name: "source", widget: "image" }
-              - { label: "Alt", name: "alt", widget: "string" }
+              - { label: "Image 1 Source", name: "image_1_source", widget: "image" }
+              - { label: "Image 1 Alt", name: "image_1_alt", widget: "string" }
                 
           - label: 'Image 2'
             name: "image_2"
             widget: "object"
             colapsed: false
             fields:
-              - { label: "Source", name: "source", widget: "image" }
-              - { label: "Alt", name: "alt", widget: "string" }
+              - { label: "Image 2 Source", name: "image_2_source", widget: "image" }
+              - { label: "Image 2 Alt", name: "image_2_alt", widget: "string" }
                 
           - label: 'Image 3'
             name: "image_3"
             widget: "object"
             colapsed: false
             fields:
-              - { label: "Source", name: "source", widget: "image" }
-              - { label: "Alt", name: "alt", widget: "string" }
+              - { label: "Image 3 Source", name: "image_3_source", widget: "image" }
+              - { label: "Image 3 Alt", name: "image_3_alt", widget: "string" }
                 
       - { label: 'Info', name: 'info', widget: 'markdown' }
         
@@ -76,9 +76,9 @@ collections:
         widget: "object"
         colapsed: false
         fields: 
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
+          - {label: "SEO Title", name: "seo_title", widget: "string"}
+          - {label: "SEO Description", name: "seo_description", widget: "string"}
+          - {label: "SEO Image", name: "seo_image", widget: "image"}
 
   - name: 'tags' # Used in routes, e.g., /admin/collections/blog
     label: 'Tags' # Used in the UI
@@ -108,13 +108,14 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Title', name: 'title', widget: 'string' }
         
-      - label: 'Image'
-        name: 'image'
+      - label: 'Featured Image'
+        name: 'deatured_image'
         widget: 'object'
         collapsed: false
         fields: 
           - {lable: "Source", name: "source", widget: "image"}
           - {label: "Alt", name: "alt", widget: "string"}
+
       - { label: 'Description', name: 'description', widget: 'markdown' }
         
       - label: 'Tags'
@@ -134,7 +135,7 @@ collections:
         multiple: false
 
       - label: 'Images'
-        name: 'image'
+        name: 'images'
         widget: 'list'
         field: 
          - label: 'Image'
