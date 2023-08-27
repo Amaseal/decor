@@ -1,8 +1,8 @@
 import { json } from '@sveltejs/kit'
-import type { Post } from '$lib/types'
+import type { Category } from '$lib/types'
 
 async function getPosts() {
-	let posts: Post[] = []
+	let categories: Category[] = []
 
 	const paths = import.meta.glob('/src/categories/posts/*.md', { eager: true })
 
@@ -11,16 +11,20 @@ async function getPosts() {
 		const slug = path.split('/').at(-1)?.replace('.md', '')
 
 		if (file && typeof file === 'object' && 'metadata' in file && slug) {
-			const metadata = file.metadata as Omit<Post, 'slug'>
-			const post = { ...metadata, slug } satisfies Post
-			posts.push(post)
+			const metadata = file.metadata as Omit<Category, 'slug'>
+			const post = { ...metadata, slug } satisfies Category
+			categories.push(post)
 		}
+
+		categories = categories.sort((first, second) =>
+			second.order - first.order
+		)
 	}
 
-	return posts
+	return categories
 }
 
 export async function GET() {
-	const posts = await getPosts()
-	return json(posts)
+	const categories = await getPosts()
+	return json(categories)
 }

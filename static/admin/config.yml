@@ -155,12 +155,12 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "src/pages/posts/home.md"
+        file: "src/home/home.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Intro", name: "intro", widget: "markdown"}
           - label: 'Featured Image'
-            name: 'deatured_image'
+            name: 'featured_image'
             widget: 'object'
             collapsed: false
             fields: 
@@ -182,7 +182,7 @@ collections:
 
       - label: "About page"
         name: "about"
-        file: "src/pages/posts/about.md"
+        file: "src/about/about.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Intro", name: "intro", widget: "markdown"}

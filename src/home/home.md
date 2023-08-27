@@ -2,7 +2,7 @@
 title: WOODEN INTERIOR PRODUCTS
 intro: We create beautifully designed things - decors, craft kits and furniture
   for nicer living.
-deatured_image:
+featured_image:
   source: ../images/background.png
   alt: White and grey candleholder houses
 quotes:

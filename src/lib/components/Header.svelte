@@ -10,9 +10,9 @@
 </script>
 
 <header bind:clientWidth={width}>
-	<div class="container flex align">
+	<div class="container flex gap small align">
 		<div class="burger flex align">
-			<Hamburger bind:open type="spring" --color="#2F434B" --padding="18px" />
+			<Hamburger bind:open type="spring" --color="#2F434B" --padding="0" />
 		</div>
 		{#if open}
 			<nav transition:fly={{ y: -200, duration: 500 }}>

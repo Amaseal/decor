@@ -22,15 +22,21 @@
 	const fallback = image.img;
 </script>
 
-<div>
-	<picture>
-		{#each Object.entries(sources) as [type, srcMeta]}
-			<source
-				type="image/{type}"
-				{sizes}
-				srcset={srcMeta.map((m) => `${m.src} ${m.w}w`).join(', ')}
-			/>
-		{/each}
-		<img src={fallback.src} {alt} {loading} />
-	</picture>
-</div>
+<picture>
+	{#each Object.entries(sources) as [type, srcMeta]}
+		<source
+			type="image/{type}"
+			{sizes}
+			srcset={srcMeta.map((m) => `${m.src} ${m.w}w`).join(', ')}
+		/>
+	{/each}
+	<img src={fallback.src} {alt} {loading} />
+</picture>
+
+<style>
+	picture {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+</style>

@@ -1,20 +1,54 @@
-export type Categories = 'sveltekit' | 'svelte'
-
-export type Post = {
-	layout: string
-	title: string
+export type Home = {
 	slug: string
-	description: string
-	date: string
-	categories: Categories[]
-	featured: string
+	title: string
+	intro: string
+	featured_image: FeaturedImage
+	quotes: Quote[]
+	seo: Seo
 }
+
+type FeaturedImage = {
+	source: string
+	alt: string
+}
+
+type Quote = {
+	quote: string
+}
+
+type Seo = {
+	title: string
+	description: string
+	image: string
+}
+
+export type About = {
+	slug: string
+	title: string
+	intro: string
+	part: Part[]
+	legal_info: LegalInfo[]
+	seo: Seo
+}
+
+type Part = {
+	part_title: string
+	info: string
+	image: string
+	image_alt: string
+}
+
+type LegalInfo = {
+	legal_text: string
+}
+
+
 
 export type Category = {
 	title: string
 	slug: string
     description: string 
-    order: string
+    order: number
 	image: string
 }
 
