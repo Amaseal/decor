@@ -5,8 +5,6 @@
 	import Image from './Image.svelte';
 	export let categories: Category[];
 
-	console.log(categories);
-
 	let open = false;
 	let width;
 </script>
