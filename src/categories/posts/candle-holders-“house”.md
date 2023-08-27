@@ -17,7 +17,7 @@ products:
   - test
 tags:
   - test
-image: /uploads/candle-holders-houses-otrs-variants-1-.jpg
+image: /images/light-blue-1-.jpg
 info: >-
   Usefull info
 
