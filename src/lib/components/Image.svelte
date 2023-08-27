@@ -1,4 +1,6 @@
 <script lang="ts">
+	import type { ImgMeta } from '$lib/types';
+
 	export let src;
 	export let alt = '';
 	export let sizes = '100vw';
@@ -14,8 +16,10 @@
 		eager: true
 	});
 
-	const sources = meta[`${src}`].sources;
-	const fallback = meta[`${src}`].img;
+	let image = meta[`${src}`] as ImgMeta;
+
+	const sources = image.sources;
+	const fallback = image.img;
 </script>
 
 <div>

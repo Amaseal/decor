@@ -21,7 +21,9 @@
 						{#each categories as category}
 							<a href="/{category.slug}" on:click={() => (open = false)}>
 								<div class="img-container">
-									<Image src={category.image} />
+									<div class="categoryimg">
+										<Image src={category.image} />
+									</div>
 								</div>
 
 								{category.title.toUpperCase()}
