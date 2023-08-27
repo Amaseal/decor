@@ -6,7 +6,7 @@ image:
   source: ../images/pet-furniture-1-.jpg
   alt: Tetrahedon cat house
 products:
-  - Advent set Black
+  - Mdf painted black
 description: Description
 description_images:
   image_1:
