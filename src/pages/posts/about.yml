@@ -12,6 +12,7 @@ part:
 
       Our family and business lives and works in a small village  SKRIVERI  ( Latvia) with community of 3000 people. We are happy to employ and to serve locals. We love and are proud to live on country side.
     image: ../images/medium_o_skars_un_ingrida_56b8ac72b5-1-.jpg
+    image_alt: Ingrida and her husband
   - part_title: our Company
     info: >-
       Woodprint Joinery & Carpentry is a family business run by Oskars Gavars
@@ -23,6 +24,7 @@ part:
 
       Ingrida: “I love to create nice things for me, my friends and clients to make every home nice decorated..”
     image: ../images/medium_team_vajag_melnbaltu_ed711631f8-1-.jpg
+    image_alt: Our company team
   - part_title: our Workshop
     info: We have chosen the location of our family house and workshop to remain
       closer to the nature, in a beautiful place some 80 km from the capital
@@ -32,6 +34,7 @@ part:
       best quality and handle every project entrusted to us with high sense of
       responsibility and attention to detail.
     image: ../images/medium_workshop_2aa773e65a-1-.jpg
+    image_alt: Our small workshop
 legal_info:
   - legal_text: "Legal name: Woodprint SIA"
   - legal_text: "VAT No: LV40103356734"
