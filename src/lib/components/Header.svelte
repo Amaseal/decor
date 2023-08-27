@@ -5,6 +5,10 @@
 	import Image from './Image.svelte';
 	export let categories: Category[];
 
+	import MdiFacebook from '~icons/mdi/facebook';
+	import MdiInstagram from '~icons/mdi/instagram';
+	import IcBaselineTiktok from '~icons/ic/baseline-tiktok';
+
 	let open = false;
 	let width;
 </script>
@@ -22,7 +26,7 @@
 							<a href="/{category.slug}" on:click={() => (open = false)}>
 								<div class="img-container">
 									<div class="categoryimg">
-										<Image src={category.image} />
+										<Image src={category.image.source} alt={category.image.alt} />
 									</div>
 								</div>
 
@@ -30,12 +34,22 @@
 							</a>
 						{/each}
 					</div>
-					<div class="links flex gap small">
+					<div class="links flex gap align small">
 						<div class="wrapper flex align">
 							<a on:click={() => (open = false)} href="/about">About</a>
 						</div>
 						<div class="wrapper flex align">
 							<a on:click={() => (open = false)} href="/contacts">Contacts</a>
+						</div>
+						<div class="socials flex align gap small">
+							<a href="https://www.facebook.com/SkriveruGaldnieciba" target="_blank"
+								><MdiFacebook /></a
+							>
+							<a href="https://www.instagram.com/skriveru_galdnieciba/" target="_blank"
+								><MdiInstagram /></a
+							>
+							<a href="https://www.tiktok.com/@sg_homedecor" target="_blank"><IcBaselineTiktok /></a
+							>
 						</div>
 					</div>
 				</div>
@@ -50,6 +64,9 @@
 </header>
 
 <style>
+	.socials {
+		margin-left: auto;
+	}
 	.button {
 		margin-left: auto;
 		color: white;

@@ -49,8 +49,30 @@ export type Category = {
 	slug: string
     description: string 
     order: number
-	image: string
+	image: {
+		source: string
+		alt: string
+	}
+	description_images: {
+		image_1: {
+			image_1_source: string
+			image_1_alt: string
+		}
+		image_2: {
+			image_2_source: string
+			image_2_alt: string
+		}
+		image_3: {
+			image_3_source: string
+			image_3_alt: string
+		}
+	}
+	info: string
+	info_images: string[]
+	seo: Seo
 }
+
+
 
 type ImgProps = {
 	src: string;

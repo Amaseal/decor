@@ -18,7 +18,9 @@
 			{#each data as category}
 				<a href="/{category.slug}">
 					<div class="img-container">
-						<Image src={category.featured_image.source} alt={category.featured_image.alt} />
+						<div class="image">
+							<Image src={category.image.source} alt={category.image.alt} />
+						</div>
 					</div>
 
 					<h3>{category.title}</h3>
@@ -41,7 +43,8 @@
 		margin-bottom: var(--size-m);
 	}
 
-	img {
+	.image {
+		overflow: hidden;
 		height: 100%;
 		width: 100%;
 		object-fit: cover;
@@ -53,7 +56,7 @@
 		grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 		gap: var(--size-m);
 	}
-	a:hover > .img-container > img {
+	a:hover > .img-container > .image {
 		transform: scale(1.05);
 	}
 
