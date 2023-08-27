@@ -1,8 +1,8 @@
 <script lang="ts">
+	import type { Category } from '$lib/types';
 	import { Hamburger } from 'svelte-hamburgers';
 	import { fly } from 'svelte/transition';
-
-	export let categories;
+	export let categories: Category[];
 
 	let open = false;
 	let width;
@@ -20,7 +20,7 @@
 						{#each categories as category}
 							<a href="/{category.slug}" on:click={() => (open = false)}>
 								<div class="img-container">
-									<img class="categoryimg" src={category.image} alt="" />
+									{category.image}
 								</div>
 
 								{category.title.toUpperCase()}

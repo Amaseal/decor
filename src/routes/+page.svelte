@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Header from '$lib/app/Header.svelte';
+	import Header from '$lib/components/Header.svelte';
 	export let data;
 </script>
 
