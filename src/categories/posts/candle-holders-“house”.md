@@ -6,7 +6,8 @@ image:
   source: ../images/candle-holders-houses-otrs-variants-1-.jpg
   alt: Candleholders "House" category
 products:
-  - test
+  - Advent set Black
+  - " Advent set Chocolate and Plum + black rectangle wooden tray."
 description: Each wooden house is made of solid wood- pine or oak. Each is
   naturally beautiful, it may contain natural irregularities and discolorations,
   you can see a wooden pattern under the paint. Copper tube adds additional
