@@ -16,39 +16,70 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Order', name: 'order', widget: 'number' }
+
+      - label: 'Image'
+        name: 'image'
+        widget: 'object'
+        collapsed: false
+        fields: 
+          - {lable: "Source", name: "source", widget: "image"}
+          - {label: "Alt", name: "alt", widget: "string"}
+
+      - label: 'Products'
+        name: 'products'
+        widget: 'relation'
+        collection: 'products'
+        value_field: 'title'
+        search_fields: ['title']
+        multiple: true
+  
       - { label: 'Description', name: 'description', widget: 'markdown' }
-      - {
-          label: 'Description Images',
-          name: 'description_images',
-          widget: 'list',
-          field: { label: 'Image', name: image, widget: image }
-        }
-      - {
-          label: 'Products',
-          name: 'products',
-          widget: 'relation',
-          collection: 'products',
-          value_field: 'title',
-          search_fields: ['title'],
-          multiple: true
-        }
-      - {
-          label: 'Tags',
-          name: 'tags',
-          widget: 'relation',
-          collection: 'tags',
-          value_field: 'title',
-          search_fields: ['title'],
-          multiple: true
-        }
-      - { label: 'Image', name: 'image', widget: 'image' }
+        
+      - label: 'Description Images'
+        name: 'description_images'
+        widget: 'object'
+        collapsed: true
+        fields: 
+          - label: 'Image 1'
+            name: "image_1"
+            widget: "object"
+            colapsed: false
+            fields:
+              - { label: "Source", name: "source", widget: "image" }
+              - { label: "Alt", name: "alt", widget: "string" }
+                
+          - label: 'Image 2'
+            name: "image_2"
+            widget: "object"
+            colapsed: false
+            fields:
+              - { label: "Source", name: "source", widget: "image" }
+              - { label: "Alt", name: "alt", widget: "string" }
+                
+          - label: 'Image 3'
+            name: "image_3"
+            widget: "object"
+            colapsed: false
+            fields:
+              - { label: "Source", name: "source", widget: "image" }
+              - { label: "Alt", name: "alt", widget: "string" }
+                
       - { label: 'Info', name: 'info', widget: 'markdown' }
-      - {
-          label: 'Info Images',
-          name: 'info_images',
-          widget: 'list',
-          field: { label: 'Image', name: image, widget: image }
-        }
+        
+      - label: 'Info Images'
+        name: 'info_images'
+        widget: 'list'
+        field: { label: 'Image', name: image, widget: image }
+
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        colapsed: false
+        fields: 
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
+
   - name: 'tags' # Used in routes, e.g., /admin/collections/blog
     label: 'Tags' # Used in the UI
     folder: 'src/tags/posts' # The path to the folder where the documents are stored
@@ -57,6 +88,17 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Title', name: 'title', widget: 'string' }
+        
+  - name: "colors"
+    label: "Colors"
+    folder: "src/colors/posts"
+    create: true
+    slug: "{{slug}}"
+    fields: 
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
+        
   - name: 'products' # Used in routes, e.g., /admin/collections/blog
     label: 'Products' # Used in the UI
     folder: 'src/products/posts' # The path to the folder where the documents are stored
@@ -65,3 +107,49 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Title', name: 'title', widget: 'string' }
+        
+      - label: 'Image'
+        name: 'image'
+        widget: 'object'
+        collapsed: false
+        fields: 
+          - {lable: "Source", name: "source", widget: "image"}
+          - {label: "Alt", name: "alt", widget: "string"}
+      - { label: 'Description', name: 'description', widget: 'markdown' }
+        
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'relation'
+        collection: 'tags'
+        value_field: 'title'
+        search_fields: ['title']
+        multiple: true
+
+      - label: 'Color'
+        name: 'color'
+        widget: 'relation'
+        collection: 'colors'
+        value_field: 'title'
+        search_fields: ['title']
+        multiple: false
+
+      - label: 'Images'
+        name: 'image'
+        widget: 'list'
+        field: 
+         - label: 'Image'
+           name: "image"
+           widget: 'object'
+           collapsed: false
+           fields: 
+            - {lable: "Source", name: "source", widget: "image"}
+            - {label: "Alt", name: "alt", widget: "string"}
+
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        colapsed: false
+        fields: 
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
