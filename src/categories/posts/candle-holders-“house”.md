@@ -10,14 +10,14 @@ description: Each wooden house is made of solid wood- pine or oak. Each is
   Christmas and Advent time. This is a really beautiful gift for yourself, your
   loved ones, friends, and colleagues.
 description_images:
-  - /images/light-blue-1-.jpg
-  - /uploads/_1044012-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
-  - /uploads/_1044008-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  - images/light-blue-1-.jpg
+  - images/_1044012-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  - images/_1044008-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
 products:
   - test
 tags:
   - test
-image: /images/light-blue-1-.jpg
+image: images/light-blue-1-.jpg
 info: >-
   Usefull info
 
@@ -96,5 +96,5 @@ info: >-
 
   Our candleholders HOUSES are made to decorate your home in a bit different, tasteful, Nordic style.
 info_images:
-  - /uploads/iists-1-1-.png
+  - images/iists-1-1-.png
 ---

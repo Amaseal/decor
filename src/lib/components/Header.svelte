@@ -2,7 +2,10 @@
 	import type { Category } from '$lib/types';
 	import { Hamburger } from 'svelte-hamburgers';
 	import { fly } from 'svelte/transition';
+	import Image from './Image.svelte';
 	export let categories: Category[];
+
+	console.log(categories);
 
 	let open = false;
 	let width;
@@ -20,7 +23,7 @@
 						{#each categories as category}
 							<a href="/{category.slug}" on:click={() => (open = false)}>
 								<div class="img-container">
-									{category.image}
+									<Image src={category.image} />
 								</div>
 
 								{category.title.toUpperCase()}
