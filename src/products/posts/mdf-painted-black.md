@@ -70,7 +70,8 @@ description: >-
   Total net weight: ca 8 kg
 tags:
   - Cat bed trapeze
-color: Black
+color:
+  - Black
 images:
   - source: ../images/tv-melns-1-.jpg
     alt: Mdf painted black
