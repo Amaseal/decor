@@ -1,12 +1,17 @@
 ---
+products:
+  - Advent set Black
 layout: blog
 title: Seasonal decors
 order: 4
+tags:
+  - Christmas
+  - Easter
+  - Mothers day
+  - Single
 image:
   source: ../images/seasonal-decors-1-.jpg
   alt: Seasonal decor set
-products:
-  - Advent set Black
 description: Description
 description_images:
   image_1:
