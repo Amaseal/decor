@@ -11,7 +11,8 @@ description: "Four different size pinewood candle holders. Suitable for table
   78 x 78 x 150mm Color: Black"
 tags:
   - Advent sets one color
-color: Black
+color:
+  - Black
 images:
   - source: ../images/black-1-1-.png
     alt: Candle holders advent set black
