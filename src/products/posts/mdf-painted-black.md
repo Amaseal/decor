@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Mdf painted black
+category: Pet furniture
 featured_image:
   source: ../images/tv-melns-1-.jpg
   alt: Mdf painted black
