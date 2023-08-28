@@ -5,12 +5,6 @@ export async function load({ params, fetch, url}) {
 	try {
         const category = await import(`../../categories/posts/${params.slug}.md`)
 
-        url.searchParams.get("orderBy")
-        url.searchParams.get("orderBy")
-        url.searchParams.get("orderBy")
-
-        
-
         const catRes = await fetch('/api/products')
         const productData: Product[] = await catRes.json() 
 
