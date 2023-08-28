@@ -17,7 +17,7 @@ async function getPosts() {
 		}
 
 		categories = categories.sort((first, second) =>
-			second.order - first.order
+			first.order - second.order
 		)
 	}
 

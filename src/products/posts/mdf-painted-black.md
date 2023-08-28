@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Mdf painted black
-deatured_image:
+featured_image:
   source: ../images/tv-melns-1-.jpg
   alt: Mdf painted black
 description: >-

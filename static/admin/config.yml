@@ -24,14 +24,6 @@ collections:
         fields: 
           - {lable: "Source", name: "source", widget: "image"}
           - {label: "Alt", name: "alt", widget: "string"}
-
-      - label: 'Products'
-        name: 'products'
-        widget: 'relation'
-        collection: 'products'
-        value_field: 'title'
-        search_fields: ['title']
-        multiple: true
   
       - { label: 'Description', name: 'description', widget: 'markdown' }
         
@@ -108,8 +100,16 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Title', name: 'title', widget: 'string' }
         
+      - label: 'Category'
+        name: 'category'
+        widget: 'relation'
+        collection: 'categories'
+        value_field: 'title'
+        search_fields: ['title']
+        multiple: false
+        
       - label: 'Featured Image'
-        name: 'deatured_image'
+        name: 'featured_image'
         widget: 'object'
         collapsed: false
         fields: 
@@ -132,7 +132,7 @@ collections:
         collection: 'colors'
         value_field: 'title'
         search_fields: ['title']
-        multiple: false
+        multiple: true
 
       - label: 'Images'
         name: 'images'

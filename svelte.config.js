@@ -15,10 +15,7 @@ const config = {
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 
 	kit: {
-		adapter: adapter({
-			edge: false,
-			split: false
-		})
+		adapter: adapter()
 	}
 };
 

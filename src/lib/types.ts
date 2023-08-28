@@ -72,7 +72,25 @@ export type Category = {
 	seo: Seo
 }
 
+export type Product = {
+	title: string
+	slug: string
+	featured_image: {
+		source: string
+		alt: string
+	}
+	description: string
+	color: string
+	tags: string[]
+	images: ProducImage[]
+	seo: Seo
 
+}
+
+type ProducImage = {
+	source: string
+	alt: string
+}
 
 type ImgProps = {
 	src: string;
