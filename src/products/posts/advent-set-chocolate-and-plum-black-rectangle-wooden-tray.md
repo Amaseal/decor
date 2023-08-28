@@ -39,7 +39,11 @@ description: >-
   420x200x35mm (rectangle)
 tags:
   - Sets with trays
-color: White
+color:
+  - White
+  - Dark grey
+  - Pastel violet
+  - Chocolate brown
 images:
   - source: ../images/_1043921-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
     alt: " Advent set Chocolate and Plum + black rectangle wooden tray."
