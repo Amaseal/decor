@@ -218,7 +218,7 @@
 				</aside>
 			{/if}
 
-			<!-- {#if data.products?.length > 0}
+			{#if data.products?.length > 0}
 				<div class="grid products">
 					{#each data.products as product}
 						<a
@@ -228,31 +228,20 @@
 							out:fade|local={{ duration: 100 }}
 						>
 							<div class="img-container">
-								<img src={product.featured_image.source} alt="" />
+								<div class="image">
+									<Image src={product.featured_image.source} alt={product.featured_image.alt} />
+								</div>
 							</div>
 
 							{product.title}
 						</a>
 					{/each}
-					{#await data.products}
-						<p>Loading...</p>
-					{:then products}
-						{#each products as product}
-							<a in:fade href="/{product.slug}" class="product">
-								<div class="img-container">
-									<img src={product.featured_image.source} alt="" />
-								</div>
-
-								{product.title}
-							</a>
-						{/each}
-					{/await}
 				</div>
 			{:else}
 				<div class="empty flex justify">
 					<p>No products match your filters.</p>
 				</div>
-			{/if} -->
+			{/if}
 		</div>
 	</div>
 </section>
@@ -349,10 +338,10 @@
 		background-color: var(--background-accent);
 		border-radius: var(--size-s);
 	}
-	.product:hover > .img-container > img {
+	.product:hover > .img-container > .image {
 		transform: scale(1.05);
 	}
-	img {
+	.image {
 		transition: all 0.2s ease;
 	}
 	.grid {
@@ -430,7 +419,7 @@
 			grid-template-rows: 1fr 1fr;
 			gap: var(--size-xs);
 		}
-		.images > img {
+		.images > .image {
 			max-height: 200px;
 		}
 		.row {
@@ -445,7 +434,7 @@
 			border-radius: 20px;
 		}
 
-		.images > img:first-of-type {
+		.images > .image:first-of-type {
 			grid-row: span 1;
 			grid-column: span 2;
 		}

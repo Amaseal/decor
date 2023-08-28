@@ -1,25 +1,24 @@
 import type { Product } from '$lib/types.js'
 import { error } from '@sveltejs/kit'
 
-export async function load({ params }) {
+export async function load({ params, fetch }) {
 	try {
         const category = await import(`../../categories/posts/${params.slug}.md`)
 
 
-        // const catRes = await fetch('api/products')
-        // const products: Product[] = await catRes.json() 
+        const catRes = await fetch('/api/products')
 
-        // products.filter((elem) => {
-        //     return category.metadata.products.some((ele) => {
-        //         return ele === elem.slug
-        //     })
-        // })
+        const productData: Product[] = await catRes.json() 
 
-        // console.log(products)
+        let products = productData.filter((elem) => {
+            return elem.category === category.metadata.title
+        })
+
+        console.log(products)
 
 		return {
             category: category.metadata,
-            // products
+            products
 		}
 	} catch (e) {
 		throw error(404, `Could not find ${params.slug}`)

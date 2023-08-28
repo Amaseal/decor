@@ -79,6 +79,7 @@ export type Product = {
 		source: string
 		alt: string
 	}
+	category: string
 	description: string
 	color: string
 	tags: string[]
