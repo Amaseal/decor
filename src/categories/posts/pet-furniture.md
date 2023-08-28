@@ -1,12 +1,15 @@
 ---
+products:
+  - Mdf painted black
 layout: blog
 title: Pet furniture
 order: 2
+tags:
+  - Cat bed polyhedron
+  - Cat bed trapeze
 image:
   source: ../images/pet-furniture-1-.jpg
   alt: Tetrahedon cat house
-products:
-  - Mdf painted black
 description: Description
 description_images:
   image_1:
