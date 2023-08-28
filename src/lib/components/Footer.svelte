@@ -13,7 +13,7 @@
 
 <footer>
 	<div class="container">
-		<div class="flex gap footer">
+		<div class="flex gap small footer">
 			<div class="logo">
 				<div class="flex gap small align">
 					<img src="../sg_logo-01.svg" alt="logo" />
@@ -25,7 +25,7 @@
 				</div>
 			</div>
 
-			<div class="links">
+			<div class="links first">
 				<h4>Categories</h4>
 				{#each categories as category}
 					<a href="/{category.slug}">{category.title}</a>
@@ -51,14 +51,15 @@
 	.footer {
 		align-items: start;
 	}
-	.socials {
-		margin-left: auto;
-	}
+
 	a {
 		text-transform: uppercase;
 	}
+	.first {
+		margin-left: auto;
+	}
 	.links {
-		width: 250px;
+		width: 200px;
 	}
 	p {
 		color: white;

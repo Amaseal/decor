@@ -16,6 +16,14 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Order', name: 'order', widget: 'number' }
+        
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'relation'
+        collection: 'tags'
+        value_field: 'title'
+        search_fields: ['title']
+        multiple: true
 
       - label: 'Image'
         name: 'image'
@@ -124,7 +132,7 @@ collections:
         collection: 'tags'
         value_field: 'title'
         search_fields: ['title']
-        multiple: true
+        multiple: false
 
       - label: 'Color'
         name: 'color'

@@ -42,6 +42,16 @@ type LegalInfo = {
 	legal_text: string
 }
 
+export type Tag = {
+	title: string
+	slug: string
+}
+
+export type Color = {
+	title: string
+	color: string
+	slug:string
+}
 
 
 export type Category = {

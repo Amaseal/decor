@@ -26,24 +26,26 @@
 	<div class="container">
 		<div class="flex gap align">
 			<div class="images">
-				<div class="image">
-					<Image
-						src={data.category.description_images.image_1.image_1_source}
-						alt={data.category.description_images.image_1.image_1_alt}
-					/>
-				</div>
-				<div class="image">
-					<Image
-						src={data.category.description_images.image_2.image_2_source}
-						alt={data.category.description_images.image_2.image_2_alt}
-					/>
-				</div>
-				<div class="image">
-					<Image
-						src={data.category.description_images.image_3.image_3_source}
-						alt={data.category.description_images.image_3.image_3_alt}
-					/>
-				</div>
+				{#key data.category}
+					<div class="image">
+						<Image
+							src={data.category.description_images.image_1.image_1_source}
+							alt={data.category.description_images.image_1.image_1_alt}
+						/>
+					</div>
+					<div class="image">
+						<Image
+							src={data.category.description_images.image_2.image_2_source}
+							alt={data.category.description_images.image_2.image_2_alt}
+						/>
+					</div>
+					<div class="image">
+						<Image
+							src={data.category.description_images.image_3.image_3_source}
+							alt={data.category.description_images.image_3.image_3_alt}
+						/>
+					</div>
+				{/key}
 			</div>
 			<div class="description flex gap collumn left justify">
 				<h2>{data.category.title}</h2>
@@ -220,7 +222,7 @@
 
 			{#if data.products?.length > 0}
 				<div class="grid products">
-					{#each data.products as product}
+					{#each data.products as product (product.title)}
 						<a
 							href="/{product.slug}"
 							class="product"
@@ -247,6 +249,10 @@
 </section>
 
 <style>
+	.image {
+		height: 100%;
+		width: 100%;
+	}
 	.container > div {
 		height: 100%;
 	}
