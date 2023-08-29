@@ -80,6 +80,7 @@ export type Category = {
 	info: string
 	info_images: string[]
 	seo: Seo
+	tags: string[]
 }
 
 export type Product = {
@@ -91,14 +92,14 @@ export type Product = {
 	}
 	category: string
 	description: string
-	color: string
+	color: string[]
 	tags: string[]
-	images: ProducImage[]
+	images: ProductImage[]
 	seo: Seo
 
 }
 
-type ProducImage = {
+export type ProductImage = {
 	source: string
 	alt: string
 }

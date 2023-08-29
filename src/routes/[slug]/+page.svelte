@@ -69,24 +69,6 @@
 
 				{#if filterOpen}
 					<aside class="filters mobile">
-						<h3>Order products</h3>
-						<div class="filter">
-							<div class="flex tags row">
-								<a
-									data-sveltekit-noscroll
-									on:click={() => (filterOpen = false)}
-									class="option"
-									href="?orderBy=:asc">By newest</a
-								>
-								<a
-									data-sveltekit-noscroll
-									class="option"
-									on:click={() => (filterOpen = false)}
-									href="?orderBy=:desc">by oldest</a
-								>
-							</div>
-						</div>
-
 						<h3>Filter Products</h3>
 
 						<div class="colors">
@@ -105,14 +87,15 @@
 								</button>
 								{#if typeOpen}
 									<div transition:slide|local class="tags flex collumn left">
-										<!-- {#each data.category.tags as tag}
+										{#each data.category.tags as tag}
 											<a
-												href="?byTag={tag.tag}"
+												href="?byTag={tag}"
+												data-sveltekit-preload-data="off"
 												data-sveltekit-noscroll
 												on:click={() => (filterOpen = false)}
-												class="option">{tag.tag}</a
+												class="option">{tag}</a
 											>
-										{/each} -->
+										{/each}
 										<a
 											href="?"
 											on:click={() => (filterOpen = false)}
@@ -136,17 +119,17 @@
 								</button>
 								{#if colorOpen}
 									<div transition:slide|local class="colors flex gap smaller wrap">
-										<!-- {#each data.colors as color}
-									
+										{#each data.colors as color}
+											<!-- svelte-ignore a11y-missing-content -->
 											<a
 												data-sveltekit-noscroll
-												href="?byColor={color.name}"
-												use:tooltip={{ content: color.name, theme: 'custom-tooltip' }}
+												href="?byColor={color.title}"
+												use:tooltip={{ content: color.title, theme: 'custom-tooltip' }}
 												class="color"
 												on:click={() => (filterOpen = false)}
 												style="background-color: {color.color}"
 											/>
-										{/each} -->
+										{/each}
 									</div>
 								{/if}
 							</div>
@@ -155,14 +138,6 @@
 				{/if}
 			{:else}
 				<aside class="filters">
-					<h3>Order products</h3>
-					<div class="filter">
-						<div class="flex left">
-							<a data-sveltekit-noscroll class="option" href="?orderBy=:asc">By newest</a>
-							<a data-sveltekit-noscroll class="option" href="?orderBy=:desc">by oldest</a>
-						</div>
-					</div>
-
 					<h3>Filter Products</h3>
 
 					<div class="colors">
@@ -181,10 +156,15 @@
 							</button>
 							{#if typeOpen}
 								<div transition:slide|local class="tags flex collumn left">
-									<!-- {#each data.category.tags as tag}
-										<a href="?byTag={tag.tag}" data-sveltekit-noscroll class="option">{tag.tag}</a>
+									{#each data.category.tags as tag}
+										<a
+											href="?byTag={tag}"
+											data-sveltekit-preload-data="off"
+											data-sveltekit-noscroll
+											class="option">{tag}</a
+										>
 									{/each}
-									<a href="?" data-sveltekit-noscroll class="option">All</a> -->
+									<a href="?" data-sveltekit-noscroll class="option">All</a>
 								</div>
 							{/if}
 						</div>
@@ -203,16 +183,16 @@
 							</button>
 							{#if colorOpen}
 								<div transition:slide|local class="colors flex gap smaller wrap">
-									<!-- {#each data.colors as color}
-								
+									{#each data.colors as color}
+										<!-- svelte-ignore a11y-missing-content -->
 										<a
 											data-sveltekit-noscroll
-											href="?byColor={color.name}"
-											use:tooltip={{ content: color.name, theme: 'custom-tooltip' }}
+											href="?byColor={color.title}"
+											use:tooltip={{ content: color.title, theme: 'custom-tooltip' }}
 											class="color"
 											style="background-color: {color.color}"
 										/>
-									{/each} -->
+									{/each}
 								</div>
 							{/if}
 						</div>
@@ -224,7 +204,7 @@
 				<div class="grid products">
 					{#each data.products as product (product.title)}
 						<a
-							href="/{product.slug}"
+							href="/{data.slug}/{product.slug}"
 							class="product"
 							in:fade|local={{ duration: 200, delay: 100 }}
 							out:fade|local={{ duration: 100 }}
