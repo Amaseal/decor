@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: " Advent set Chocolate and Plum + black rectangle wooden tray."
+title: " Advent set Chocolate and Plum + black rectangle wooden tray"
 category: CANDLE HOLDERS HOUSE
 featured_image:
   source: ../images/_1043921-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
@@ -33,7 +33,7 @@ description: >-
   White, Pastel Violet RAL 4009, Dark grey RAL 7046, Chocolate brown NCS 7005-Y80R
 
 
-  Sizes for trays:
+  **Sizes for trays:**
 
 
   420x200x35mm (rectangle)
