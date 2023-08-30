@@ -76,7 +76,7 @@ info: >-
   Our candleholders HOUSES are made to decorate your home in a bit different, tasteful, Nordic style.
 info_images:
   - ../images/iists-1-1-.png
-  - ../images/_1044012-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  - ../images/_1043916-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
 seo:
   seo_title: CANDLE HOLDERS “HOUSE”
   seo_description: Each wooden house is made of solid wood- pine or oak. Each is
