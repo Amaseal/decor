@@ -12,12 +12,10 @@ description: >-
   different sizes and 4 different colors to fit to your interior and home mood.
 
 
-
-
   Four different size pinewood candle holders. Suitable for table candles with a diameter of 21-23 mm. Ideal for decorating your home, could be used as Advent wreath.
 
 
-  Sizes candle holders:
+  **Sizes candle holders:**
 
 
   78 x 78 x 90mm
@@ -32,10 +30,10 @@ description: >-
   78 x 78 x 150m
 
 
-  Candle holder colors: White, Pastel Violet RAL 4009, Dark grey RAL 7046, Chocolate brown NCS 7005-Y80R
+  **Candle holder colors:** White, Pastel Violet RAL 4009, Dark grey RAL 7046, Chocolate brown NCS 7005-Y80R
 
 
-  Wooden plate: 420x200x35mm
+  **Wooden plate:** 420x200x35mm
 tags: Sets with trays
 color:
   - White
