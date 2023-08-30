@@ -22,10 +22,10 @@ description: Each wooden house is made of solid wood- pine or oak. Each is
   loved ones, friends, and colleagues.
 description_images:
   image_1:
-    image_1_source: ../images/_1044012-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+    image_1_source: ../images/_1044008-insta-2021-jurgis-kreilis-filmday.lv-2-.jpg
     image_1_alt: Candleholders "House" grey
   image_2:
-    image_2_source: ../images/_1044008-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+    image_2_source: ../images/_1043819-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
     image_2_alt: Candleholders "House" grey
   image_3:
     image_3_source: ../images/candle-holders-houses-otrs-variants-1-.jpg
