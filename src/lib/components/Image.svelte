@@ -9,7 +9,7 @@
 	const meta = import.meta.glob('../images/*.{heic,heif,avif,jpg,jpeg,png,tiff,webp,gif,svg}', {
 		query: {
 			format: 'webp;avif',
-			w: '200;400;800',
+			w: '200;400;800;1200',
 			as: 'picture'
 		},
 		import: 'default',

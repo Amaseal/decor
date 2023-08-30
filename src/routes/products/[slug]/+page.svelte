@@ -5,8 +5,6 @@
 	import 'bigger-picture/css';
 	import { onMount } from 'svelte';
 	import Slider from '$lib/components/Slider.svelte';
-	import Image from '$lib/components/Image.svelte';
-	import type { ImgMeta } from '$lib/types.js';
 
 	const meta = import.meta.glob(
 		'../../../lib/images/*.{heic,heif,avif,jpg,jpeg,png,tiff,webp,gif,svg}',
@@ -62,7 +60,7 @@
 						class="image"
 						data-img={image}
 						data-thumb={image}
-						data-height="1200"
+						data-width="1200"
 						data-alt={data.product.title}
 						data-sveltekit-preload-data="tap"
 					>
@@ -83,19 +81,6 @@
 </section>
 
 <style>
-	a {
-		color: var(--primary-color);
-		display: block;
-		margin-top: var(--size-s);
-		margin-bottom: var(--size-m);
-		font-weight: 400;
-		letter-spacing: 0.1rem;
-		transition: letter-spacing 0.2s ease;
-		font-size: var(--size-s);
-	}
-	a:hover {
-		letter-spacing: 0.05rem;
-	}
 	.images,
 	.text {
 		width: 50%;
@@ -103,6 +88,7 @@
 
 	h1 {
 		font-size: clamp(1.5rem, 4.5vw, 2.5rem);
+		margin-bottom: var(--size-m);
 	}
 	.container {
 		padding-top: var(--size-l);

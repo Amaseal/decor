@@ -1,13 +1,13 @@
 import type { Color, Product } from '$lib/types.js'
 import { error } from '@sveltejs/kit'
 
-export async function load({ params, fetch, url}) {
+export async function load({ params, fetch, url }) {
     try {
 
         const tag = url.searchParams.get("byTag")
         const color = url.searchParams.get("byColor")
 
-        let category = await import(`../../categories/posts/${params.slug}.md`)
+        let category = await import(`../../../categories/posts/${params.slug}.md`)
 
         const catRes = await fetch('/api/products')
         const productData: Product[] = await catRes.json() 
@@ -35,8 +35,8 @@ export async function load({ params, fetch, url}) {
 		return {
             category: category.metadata,
             products,
+            slug: params.slug,
             colors,
-            slug: params.slug
       
 		}
 	} catch (e) {

@@ -1,7 +1,7 @@
 ---
 products:
   - Advent set Black
-  - " Advent set Chocolate and Plum + black rectangle wooden tray."
+  - Advent set Chocolate and Plum + black rectangle wooden tray
 layout: blog
 title: CANDLE HOLDERS HOUSE
 order: 1

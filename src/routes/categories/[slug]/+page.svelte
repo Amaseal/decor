@@ -54,7 +54,7 @@
 				{/if}
 
 				{#if data.category.info}
-					<a href="/{data.category.slug}/info" class="button">Product Info</a>
+					<a href="/categories/{data.slug}/info" class="button">Product Info</a>
 				{/if}
 			</div>
 		</div>
@@ -204,7 +204,7 @@
 				<div class="grid products">
 					{#each data.products as product (product.title)}
 						<a
-							href="/{data.slug}/{product.slug}"
+							href="/products/{product.slug}"
 							class="product"
 							in:fade|local={{ duration: 200, delay: 100 }}
 							out:fade|local={{ duration: 100 }}
@@ -408,9 +408,7 @@
 		.images > .image {
 			max-height: 200px;
 		}
-		.row {
-			flex-direction: row;
-		}
+
 		.description {
 			width: 100%;
 		}

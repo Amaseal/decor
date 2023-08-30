@@ -23,7 +23,7 @@
 				<div class="container">
 					<div class="products flex gap small">
 						{#each categories as category}
-							<a href="/{category.slug}" on:click={() => (open = false)}>
+							<a href="/categories/{category.slug}" on:click={() => (open = false)}>
 								<div class="img-container">
 									<div class="categoryimg">
 										<Image src={category.image.source} alt={category.image.alt} />

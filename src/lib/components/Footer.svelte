@@ -28,7 +28,7 @@
 			<div class="links first">
 				<h4>Categories</h4>
 				{#each categories as category}
-					<a href="/{category.slug}">{category.title}</a>
+					<a href="/categories/{category.slug}">{category.title}</a>
 				{/each}
 			</div>
 			<div class="links">

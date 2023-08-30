@@ -1,5 +1,4 @@
 <script>
-	import { enhance } from '$app/forms';
 </script>
 
 <section>
@@ -12,7 +11,7 @@
 		</div>
 
 		<div class="form">
-			<form action="/success" netlify method="POST" netlify-honeypot="bot-field">
+			<form netlify netlify-honeypot="bot-field">
 				<div class="flex gap small">
 					<label for="name"
 						>Name

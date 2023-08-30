@@ -1,7 +1,6 @@
 import type { Home, Category, About } from '$lib/types'
 
 export async function load({ fetch }) {
-
 	async function getHomeData() {
 		let homePage = {}
 
@@ -37,9 +36,5 @@ export async function load({ fetch }) {
 		return aboutData
 	}
 
-
-
-	const catRes = await fetch('api/categories')
-	const categories: Category[] = await catRes.json() 
-	return {categories, homePage: await getHomeData() as Home, about: await getAboutData() as About }
+	return { homePage: await getHomeData() as Home, about: await getAboutData() as About }
 }

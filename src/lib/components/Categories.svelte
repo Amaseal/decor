@@ -16,7 +16,7 @@
 
 		<div class="grid">
 			{#each data as category}
-				<a href="/{category.slug}">
+				<a href="/categories/{category.slug}">
 					<div class="img-container">
 						<div class="image">
 							<Image src={category.image.source} alt={category.image.alt} />
