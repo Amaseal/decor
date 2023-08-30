@@ -40,7 +40,7 @@ description: >-
   • SHUSH SHUSH - a trapezoidal cat bed with small round windows on both sides and in the front - for those cats who love peace and like to hide from the noise of the house, quietly watching what's going on around them.
 
 
-  Materials:
+  **Materials:**
 
 
   Painted MDF – black or white; will perfectly match with the Scandinavian minimalistic interior design!
@@ -49,16 +49,16 @@ description: >-
   Birch plywood- bleached with vax to avoid get dirty. Natural, warm look.
 
 
-  Size: ( see image)
+  **Size:** ( see image)
 
 
-  Total Height: 49cm (19.3 in)
+  **Total Height:** 49cm (19.3 in)
 
 
-  Width: 59 cm (23.2in)
+  **Width:** 59 cm (23.2in)
 
 
-  Depth: 31 cm (12.2 in)
+  **Depth:** 31 cm (12.2 in)
 
 
   TV screen size 32.5x23.5cm, sleeping area 51x28.5cm
