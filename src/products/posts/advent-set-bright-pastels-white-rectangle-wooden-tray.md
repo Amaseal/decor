@@ -3,7 +3,7 @@ layout: blog
 title: Advent set BRIGHT PASTELS + white rectangle wooden tray
 category: CANDLE HOLDERS HOUSE
 featured_image:
-  source: ../images/woodprint-comp-3-1-.jpg
+  source: /images/woodprint-comp-3-1-.jpg
   alt: Advent set BRIGHT PASTELS + white rectangle wooden tray
 description: >-
   Because we can imagine that not everyone finds it easy to make a combination
@@ -41,11 +41,11 @@ color:
   - Pastel blue
   - Light pink
 images:
-  - source: ../images/woodprint-comp-3-1-.jpg
+  - source: /images/woodprint-comp-3-1-.jpg
     alt: Advent set BRIGHT PASTELS + white rectangle wooden tray
 seo:
   title: Advent set BRIGHT PASTELS + white rectangle wooden tray
   description: Four different size pinewood candle holders. Suitable for table
     candles with a diameter of 21-23 mm.
-  image: ../images/woodprint-comp-3-1-.jpg
+  image: /images/woodprint-comp-3-1-.jpg
 ---

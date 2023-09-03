@@ -4,7 +4,7 @@ import type { Color, Tag } from '$lib/types'
 async function getPosts() {
 	let colors: Tag[] = []
 
-	const paths = import.meta.glob('/src/colors/posts/*.md', { eager: true })
+	const paths = import.meta.glob('/src/tags/posts/*.md', { eager: true })
 
 	for (const path in paths) {
 		const file = paths[path]

@@ -11,7 +11,7 @@ tags:
   - Sets with trays
   - Single
 image:
-  source: ../images/candle-holders-houses-otrs-variants-1-.jpg
+  source: /images/candle-holders-houses-otrs-variants-1-.jpg
   alt: Candleholders "House" category
 description: Each wooden house is made of solid wood- pine or oak. Each is
   naturally beautiful, it may contain natural irregularities and discolorations,
@@ -22,13 +22,13 @@ description: Each wooden house is made of solid wood- pine or oak. Each is
   loved ones, friends, and colleagues.
 description_images:
   image_1:
-    image_1_source: ../images/_1044008-insta-2021-jurgis-kreilis-filmday.lv-2-.jpg
+    image_1_source: /images/_1044008-insta-2021-jurgis-kreilis-filmday.lv-2-.jpg
     image_1_alt: Candleholders "House" grey
   image_2:
-    image_2_source: ../images/_1043819-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+    image_2_source: /images/_1043819-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
     image_2_alt: Candleholders "House" grey
   image_3:
-    image_3_source: ../images/candle-holders-houses-otrs-variants-1-.jpg
+    image_3_source: /images/candle-holders-houses-otrs-variants-1-.jpg
     image_3_alt: Festive Candleholders "House"
 info: >-
   ## Usefull info
@@ -75,12 +75,12 @@ info: >-
 
   Our candleholders HOUSES are made to decorate your home in a bit different, tasteful, Nordic style.
 info_images:
-  - ../images/iists-1-1-.png
-  - ../images/_1043916-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  - /images/iists-1-1-.png
+  - /images/_1043916-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
 seo:
   seo_title: CANDLE HOLDERS “HOUSE”
   seo_description: Each wooden house is made of solid wood- pine or oak. Each is
     naturally beautiful, it may contain natural irregularities and
     discolorations, you can see a wooden pattern under the paint.
-  seo_image: ../images/candle-holders-houses-otrs-variants-1-.jpg
+  seo_image: /images/candle-holders-houses-otrs-variants-1-.jpg
 ---

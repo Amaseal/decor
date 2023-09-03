@@ -6,7 +6,8 @@
 </script>
 
 <svelte:head>
-	<title>SG Home Decor</title>
+	<title>{data.homePage.seo.title}</title>
+	<meta name="description" content={data.homePage.seo.description} />
 </svelte:head>
 
 <Hero data={data.homePage} />

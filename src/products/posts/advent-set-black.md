@@ -3,7 +3,7 @@ layout: blog
 title: Advent set Black
 category: CANDLE HOLDERS HOUSE
 featured_image:
-  source: ../images/black-1-1-.png
+  source: /images/black-1-1-.png
   alt: Candle holders advent set black
 description: >-
   Four different size pinewood candle holders. Suitable for table candles with a
@@ -24,17 +24,16 @@ description: >-
 
 
   **Color:** Black
-tags:
-  - Advent sets one color
+tags: Advent sets one color
 color:
   - Black
 images:
-  - source: ../images/black-1-1-.png
+  - source: /images/black-1-1-.png
     alt: Candle holders advent set black
-  - source: ../images/black-3-.png
+  - source: /images/black-3-.png
     alt: Candle holders advent set black
 seo:
   title: Advent set Black
   description: Four different size pinewood candle holders. Black color.
-  image: ../images/black-1-1-.png
+  image: /images/black-1-1-.png
 ---

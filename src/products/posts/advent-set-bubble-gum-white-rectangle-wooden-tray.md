@@ -3,7 +3,7 @@ layout: blog
 title: Advent set BUBBLE GUM + white rectangle wooden tray
 category: CANDLE HOLDERS HOUSE
 featured_image:
-  source: ../images/bubble-gum-1-.jpg
+  source: /images/bubble-gum-1-.jpg
   alt: Advent set BUBBLE GUM + white rectangle wooden tray
 description: >-
   Because we can imagine that not everyone finds it easy to make a combination
@@ -41,13 +41,13 @@ color:
   - Pastel blue
   - Silver
 images:
-  - source: ../images/bubble-gum-1-.jpg
+  - source: /images/bubble-gum-1-.jpg
     alt: Advent set BUBBLE GUM + white rectangle wooden tray
-  - source: ../images/bubble-gum-2-1-.jpg
+  - source: /images/bubble-gum-2-1-.jpg
     alt: Advent set BUBBLE GUM + white rectangle wooden tray
 seo:
   title: Advent set BUBBLE GUM + white rectangle wooden tray
   description: Four different size pinewood candle holders. Suitable for table
     candles with a diameter of 21-23 mm.
-  image: ../images/bubble-gum-1-.jpg
+  image: /images/bubble-gum-1-.jpg
 ---

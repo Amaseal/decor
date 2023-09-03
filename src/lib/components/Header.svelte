@@ -2,8 +2,9 @@
 	import type { Category } from '$lib/types';
 	import { Hamburger } from 'svelte-hamburgers';
 	import { fly } from 'svelte/transition';
-	import Image from './Image.svelte';
 	export let categories: Category[];
+
+	import logo from '$lib/images/sg_logo.svg';
 
 	import MdiFacebook from '~icons/mdi/facebook';
 	import MdiInstagram from '~icons/mdi/instagram';
@@ -25,9 +26,7 @@
 						{#each categories as category}
 							<a href="/categories/{category.slug}" on:click={() => (open = false)}>
 								<div class="img-container">
-									<div class="categoryimg">
-										<Image src={category.image.source} alt={category.image.alt} />
-									</div>
+									<img src="{category.image.source}/thumb" alt={category.image.alt} />
 								</div>
 
 								{category.title.toUpperCase()}
@@ -56,7 +55,7 @@
 			</nav>
 		{/if}
 		<a href="/" on:click={() => (open = false)}>
-			<img class="logo" src="../sg_logo.svg" alt="SG Home decor logo" />
+			<img class="logo" src={logo} alt="SG Home decor logo" />
 		</a>
 
 		<a href="/products" class="button">Products</a>
@@ -64,6 +63,9 @@
 </header>
 
 <style>
+	.logo {
+		height: 35px;
+	}
 	.socials {
 		margin-left: auto;
 	}
@@ -79,9 +81,7 @@
 	.container {
 		padding: 0 10px;
 	}
-	img {
-		width: auto;
-	}
+
 	.wrapper {
 		width: 5%;
 	}
@@ -97,27 +97,26 @@
 		width: 100%;
 	}
 	.img-container {
+		height: 250px;
+		width: 100%;
 		overflow: hidden;
 		border-radius: var(--size-s);
 		margin-bottom: var(--size-xs);
 	}
-	.categoryimg {
-		height: 250px;
+	img {
 		width: 100%;
-
+		height: 100%;
 		object-fit: cover;
 		transition: transform 0.2s ease;
 	}
-	a:hover > .img-container > .categoryimg {
+	a:hover > .img-container > img {
 		transform: scale(1.05);
 	}
 	.burger {
 		position: relative;
 		z-index: 999;
 	}
-	img {
-		height: 35px;
-	}
+
 	header {
 		position: sticky;
 		top: 0;
@@ -162,7 +161,7 @@
 			grid-template-columns: 1fr 1fr;
 		}
 
-		.categoryimg {
+		img {
 			height: 125px;
 		}
 	}

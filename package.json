@@ -33,15 +33,15 @@
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
 		"unplugin-icons": "^0.15.3",
-		"vite": "^4.4.2",
-		"vite-imagetools": "^5.0.8"
+		"vite": "^4.4.2"
 	},
 	"type": "module",
 	"dependencies": {
-		"@splidejs/svelte-splide": "^0.2.9",
 		"@sveltejs/adapter-netlify": "^2.0.8",
 		"bigger-picture": "^1.1.8",
+		"buffer-image-size": "^0.6.4",
 		"mdsvex": "^0.11.0",
+		"sharp": "^0.32.5",
 		"svelte-markdown": "^0.4.0"
 	}
 }

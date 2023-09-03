@@ -3,7 +3,7 @@ layout: blog
 title: Mdf painted black
 category: Pet furniture
 featured_image:
-  source: ../images/tv-melns-1-.jpg
+  source: /images/tv-melns-1-.jpg
   alt: Mdf painted black
 description: >-
   WE ARE CAT AND DOG PEOPLE. We love animals and we are passionate about
@@ -73,12 +73,12 @@ tags:
 color:
   - Black
 images:
-  - source: ../images/tv-melns-1-.jpg
+  - source: /images/tv-melns-1-.jpg
     alt: Mdf painted black
-  - source: ../images/21-1-2-.jpg
+  - source: /images/21-1-2-.jpg
     alt: Mdf painted black
 seo:
   title: Mdf painted black
   description: Mdf painted black
-  image: ../images/tv-melns-1-.jpg
+  image: /images/tv-melns-1-.jpg
 ---

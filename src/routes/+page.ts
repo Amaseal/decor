@@ -1,6 +1,6 @@
-import type { Home, Category, About } from '$lib/types'
+import type { Home, About } from '$lib/types'
 
-export async function load({ fetch }) {
+export async function load() {
 	async function getHomeData() {
 		let homePage = {}
 

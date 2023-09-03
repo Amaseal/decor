@@ -3,7 +3,7 @@ layout: blog
 title: Advent set Chocolate and Plum + white rectangle wooden tray
 category: CANDLE HOLDERS HOUSE
 featured_image:
-  source: ../images/_1043907-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  source: /images/_1043907-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
   alt: Advent set Chocolate and Plum + white rectangle wooden tray
 description: >-
   Because we can imagine that not everyone finds it easy to make a combination
@@ -38,13 +38,13 @@ color:
   - Pastel violet
   - Chocolate brown
 images:
-  - source: ../images/_1043907-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  - source: /images/_1043907-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
     alt: Advent set Chocolate and Plum + white rectangle wooden tray
-  - source: ../images/_1043914-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  - source: /images/_1043914-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
     alt: Advent set Chocolate and Plum + white rectangle wooden tray
 seo:
   title: Advent set Chocolate and Plum + white rectangle wooden tray
   description: Four different size pinewood candle holders. Suitable for table
     candles with a diameter of 21-23 mm.
-  image: ../images/_1043907-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  image: /images/_1043907-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
 ---

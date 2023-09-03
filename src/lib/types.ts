@@ -93,7 +93,7 @@ export type Product = {
 	category: string
 	description: string
 	color: string[]
-	tags: string[]
+	tags: string
 	images: ProductImage[]
 	seo: Seo
 

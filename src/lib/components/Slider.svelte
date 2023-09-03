@@ -1,8 +1,9 @@
 <script lang="ts">
-	export let images: string[];
+	export let images: ProductImage[];
 	import BiggerPicture from 'bigger-picture/svelte';
 	import 'bigger-picture/css';
 	import { onMount } from 'svelte';
+	import type { ProductImage } from '$lib/types';
 
 	onMount(() => {
 		const bp = BiggerPicture({
@@ -11,11 +12,11 @@
 
 		let items = images.map((item) => {
 			return {
-				img: item,
-				thumb: item,
+				img: `${item.source}`,
+				thumb: `${item.source}/thumb`,
 				height: 500,
 				width: 200,
-				alt: item
+				alt: item.alt
 			};
 		});
 

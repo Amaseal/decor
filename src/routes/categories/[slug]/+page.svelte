@@ -1,6 +1,4 @@
 <script lang="ts">
-	import Image from '$lib/components/Image.svelte';
-
 	export let data;
 	// @ts-ignore
 	import { tooltip } from '@svelte-plugins/tooltips';
@@ -8,6 +6,24 @@
 
 	import MdiChevronDown from '~icons/mdi/chevron-down';
 	import MdiChevronUp from '~icons/mdi/chevron-up';
+
+	$: products = data.products;
+
+	const filterByTag = (tag: string) => {
+		if (tag) {
+			products = data.products.filter((elem) => {
+				return elem.tags === tag;
+			});
+		} else {
+			products = data.products;
+		}
+	};
+
+	const filterByColor = (color: string) => {
+		products = data.products.filter((elem) => {
+			return elem.color.some((c) => c === color);
+		});
+	};
 
 	let typeOpen = false;
 	let colorOpen = false;
@@ -18,6 +34,7 @@
 
 <svelte:head>
 	<title>{data.category.seo.seo_title}</title>
+	<meta name="description" content={data.category.seo.description} />
 </svelte:head>
 
 <svelte:window bind:innerHeight={height} bind:innerWidth={width} />
@@ -28,20 +45,20 @@
 			<div class="images">
 				{#key data.category}
 					<div class="image">
-						<Image
-							src={data.category.description_images.image_1.image_1_source}
+						<img
+							src="{data.category.description_images.image_1.image_1_source}/medium"
 							alt={data.category.description_images.image_1.image_1_alt}
 						/>
 					</div>
 					<div class="image">
-						<Image
-							src={data.category.description_images.image_2.image_2_source}
+						<img
+							src="{data.category.description_images.image_2.image_2_source}/thumb"
 							alt={data.category.description_images.image_2.image_2_alt}
 						/>
 					</div>
 					<div class="image">
-						<Image
-							src={data.category.description_images.image_3.image_3_source}
+						<img
+							src="{data.category.description_images.image_3.image_3_source}/thumb"
 							alt={data.category.description_images.image_3.image_3_alt}
 						/>
 					</div>
@@ -88,19 +105,16 @@
 								{#if typeOpen}
 									<div transition:slide|local class="tags flex collumn left">
 										{#each data.category.tags as tag}
-											<a
-												href="?byTag={tag}"
-												data-sveltekit-preload-data="off"
-												data-sveltekit-noscroll
+											<button
+												on:click={() => filterByTag(tag)}
 												on:click={() => (filterOpen = false)}
-												class="option">{tag}</a
+												class="option">{tag}</button
 											>
 										{/each}
-										<a
-											href="?"
+										<button
+											on:click={() => filterByTag('')}
 											on:click={() => (filterOpen = false)}
-											data-sveltekit-noscroll
-											class="option">All</a
+											class="option">All</button
 										>
 									</div>
 								{/if}
@@ -120,10 +134,8 @@
 								{#if colorOpen}
 									<div transition:slide|local class="colors flex gap smaller wrap">
 										{#each data.colors as color}
-											<!-- svelte-ignore a11y-missing-content -->
-											<a
-												data-sveltekit-noscroll
-												href="?byColor={color.title}"
+											<button
+												on:click={() => filterByColor(color.title)}
 												use:tooltip={{ content: color.title, theme: 'custom-tooltip' }}
 												class="color"
 												on:click={() => (filterOpen = false)}
@@ -157,14 +169,17 @@
 							{#if typeOpen}
 								<div transition:slide|local class="tags flex collumn left">
 									{#each data.category.tags as tag}
-										<a
-											href="?byTag={tag}"
-											data-sveltekit-preload-data="off"
-											data-sveltekit-noscroll
-											class="option">{tag}</a
+										<button
+											on:click={() => filterByTag(tag)}
+											on:click={() => (filterOpen = false)}
+											class="option">{tag}</button
 										>
 									{/each}
-									<a href="?" data-sveltekit-noscroll class="option">All</a>
+									<button
+										on:click={() => filterByTag('')}
+										on:click={() => (filterOpen = false)}
+										class="option">All</button
+									>
 								</div>
 							{/if}
 						</div>
@@ -184,12 +199,11 @@
 							{#if colorOpen}
 								<div transition:slide|local class="colors flex gap smaller wrap">
 									{#each data.colors as color}
-										<!-- svelte-ignore a11y-missing-content -->
-										<a
-											data-sveltekit-noscroll
-											href="?byColor={color.title}"
+										<button
+											on:click={() => filterByColor(color.title)}
 											use:tooltip={{ content: color.title, theme: 'custom-tooltip' }}
 											class="color"
+											on:click={() => (filterOpen = false)}
 											style="background-color: {color.color}"
 										/>
 									{/each}
@@ -200,9 +214,9 @@
 				</aside>
 			{/if}
 
-			{#if data.products?.length > 0}
+			{#if products?.length > 0}
 				<div class="grid products">
-					{#each data.products as product (product.title)}
+					{#each products as product (product.title)}
 						<a
 							href="/products/{product.slug}"
 							class="product"
@@ -211,7 +225,10 @@
 						>
 							<div class="img-container">
 								<div class="image">
-									<Image src={product.featured_image.source} alt={product.featured_image.alt} />
+									<img
+										src="{product.featured_image.source}/thumb"
+										alt={product.featured_image.alt}
+									/>
 								</div>
 							</div>
 

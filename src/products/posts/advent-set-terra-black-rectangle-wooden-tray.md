@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: " Advent set TERRA + black rectangle  wooden tray"
+title: ' Advent set TERRA + black rectangle  wooden tray'
 category: CANDLE HOLDERS HOUSE
 featured_image:
-  source: ../images/_1043819-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
-  alt: " Advent set TERRA + black rectangle  wooden tray"
+  source: /images/_1043819-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  alt: ' Advent set TERRA + black rectangle  wooden tray'
 description: >-
   Because we can imagine that not everyone finds it easy to make a combination
   by themselves, we have also we have also created some sets from  our clients
@@ -41,11 +41,11 @@ color:
   - Chocolate brown
   - Clay
 images:
-  - source: ../images/_1043819-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
-    alt: " Advent set TERRA + black rectangle  wooden tray"
+  - source: /images/_1043819-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+    alt: ' Advent set TERRA + black rectangle  wooden tray'
 seo:
-  title: " Advent set TERRA + black rectangle  wooden tray"
+  title: ' Advent set TERRA + black rectangle  wooden tray'
   description: Four different size pinewood candle holders. Suitable for table
     candles with a diameter of 21-23 mm.
-  image: ../images/_1043819-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  image: /images/_1043819-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
 ---

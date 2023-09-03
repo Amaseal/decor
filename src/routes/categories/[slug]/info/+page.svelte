@@ -1,22 +1,24 @@
 <script lang="ts">
-	import Image from '$lib/components/Image.svelte';
-    import SvelteMarkdown from 'svelte-markdown'
-
-
+	import SvelteMarkdown from 'svelte-markdown';
 
 	export let data;
 </script>
+
+<svelte:head>
+	<title>Info | {data.category.seo.seo_title}</title>
+	<meta name="description" content={data.category.seo.description} />
+</svelte:head>
 
 <section>
 	<div class="container">
 		<a href="/categories/{data.slug}">Back</a>
 		<div class="flex gap">
 			<div class="info">
-				<SvelteMarkdown source={data.category.info}/>
+				<SvelteMarkdown source={data.category.info} />
 			</div>
 			<div class="flex collumn">
 				{#each data.category.info_images as image}
-					<Image src={image} />
+					<img src="{image}/medium" alt="" />
 				{/each}
 			</div>
 		</div>
@@ -24,6 +26,11 @@
 </section>
 
 <style>
+	img {
+		height: 500px;
+		width: 100%;
+		object-fit: cover;
+	}
 	.flex > div {
 		width: 50%;
 	}

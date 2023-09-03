@@ -3,7 +3,7 @@ layout: blog
 title: Advent set STONE + grey square wooden tray
 category: CANDLE HOLDERS HOUSE
 featured_image:
-  source: ../images/_1044073-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  source: /images/_1044073-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
   alt: Advent set STONE + grey square wooden tray
 description: >-
   Because we can imagine that not everyone finds it easy to make a combination
@@ -38,15 +38,15 @@ color:
   - Platinum grey
   - Dark grey
 images:
-  - source: ../images/_1044073-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  - source: /images/_1044073-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
     alt: Advent set STONE + grey square wooden tray
-  - source: ../images/_1044064-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  - source: /images/_1044064-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
     alt: Advent set STONE + grey square wooden tray
-  - source: ../images/_1044059-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  - source: /images/_1044059-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
     alt: Advent set STONE + grey square wooden tray
 seo:
   title: Advent set STONE + grey square wooden tray
   description: Four different size pinewood candle holders. Suitable for table
     candles with a diameter of 21-23 mm.
-  image: ../images/_1044073-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  image: /images/_1044073-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
 ---

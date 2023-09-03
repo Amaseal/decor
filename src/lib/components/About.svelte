@@ -1,6 +1,5 @@
 <script lang="ts">
 	import type { About } from '../types';
-	import Image from './Image.svelte';
 
 	export let data: About;
 </script>
@@ -17,7 +16,7 @@
 		<div class="images">
 			{#each data.part as part}
 				<div class="image">
-					<Image src={part.image} alt={part.image_alt} />
+					<img src="{part.image}/medium" alt={part.image_alt} />
 				</div>
 			{/each}
 		</div>

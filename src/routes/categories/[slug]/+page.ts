@@ -1,11 +1,10 @@
 import type { Color, Product } from '$lib/types.js'
 import { error } from '@sveltejs/kit'
 
-export async function load({ params, fetch, url }) {
+export async function load({ params, fetch}) {
     try {
 
-        const tag = url.searchParams.get("byTag")
-        const color = url.searchParams.get("byColor")
+
 
         let category = await import(`../../../categories/posts/${params.slug}.md`)
 
@@ -15,23 +14,10 @@ export async function load({ params, fetch, url }) {
         const colrRes = await fetch('/api/colors')
         const colors: Color[] = await colrRes.json() 
 
-       let products = productData.filter((elem) => {
+        let products = productData.filter((elem) => {
             return elem.category === category.metadata.title
         })
-
-        if (tag) {
-            products = products.filter((elem) => {
-                return elem.tags.some(c => c === tag)
-
-            })
-        }
         
-        if (color) {
-            products = products.filter((elem) => {
-                return elem.color.some((c) => c===color)
-            })
-        }
-
 		return {
             category: category.metadata,
             products,
