@@ -13,5 +13,5 @@ seo:
   title: WOODEN INTERIOR PRODUCTS
   description: We create beautifully designed things - decors, craft kits and
     furniture for nicer living.
-  image: /images/background.png
+  image: https://ucarecdn.com/77830aaa-8717-4855-b459-35247c3410b8/
 ---
