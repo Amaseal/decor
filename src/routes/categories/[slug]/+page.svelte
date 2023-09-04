@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Image from '$lib/components/Image.svelte';
+
 	export let data;
 	// @ts-ignore
 	import { tooltip } from '@svelte-plugins/tooltips';
@@ -45,21 +47,24 @@
 			<div class="images">
 				{#key data.category}
 					<div class="image">
-						<img
-							src="{data.category.description_images.image_1.image_1_source}/medium"
+						<Image
+							src={data.category.description_images.image_1.image_1_source}
 							alt={data.category.description_images.image_1.image_1_alt}
+							width={600}
 						/>
 					</div>
 					<div class="image">
-						<img
-							src="{data.category.description_images.image_2.image_2_source}/thumb"
+						<Image
+							src={data.category.description_images.image_2.image_2_source}
 							alt={data.category.description_images.image_2.image_2_alt}
+							width={600}
 						/>
 					</div>
 					<div class="image">
-						<img
-							src="{data.category.description_images.image_3.image_3_source}/thumb"
+						<Image
+							src={data.category.description_images.image_3.image_3_source}
 							alt={data.category.description_images.image_3.image_3_alt}
+							width={600}
 						/>
 					</div>
 				{/key}
@@ -225,9 +230,10 @@
 						>
 							<div class="img-container">
 								<div class="image">
-									<img
-										src="{product.featured_image.source}/thumb"
+									<Image
+										src={product.featured_image.source}
 										alt={product.featured_image.alt}
+										width={400}
 									/>
 								</div>
 							</div>

@@ -42,6 +42,7 @@
 		"buffer-image-size": "^0.6.4",
 		"mdsvex": "^0.11.0",
 		"sharp": "^0.32.5",
-		"svelte-markdown": "^0.4.0"
+		"svelte-markdown": "^0.4.0",
+		"vite-imagetools": "^5.0.8"
 	}
 }

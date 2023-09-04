@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Image from '$lib/components/Image.svelte';
+
 	export let data;
 	// @ts-ignore
 	import { tooltip } from '@svelte-plugins/tooltips';
@@ -225,9 +227,10 @@
 						>
 							<div class="img-container">
 								<div class="image">
-									<img
-										src="{product.featured_image.source}/thumb"
+									<Image
+										src={product.featured_image.source}
 										alt={product.featured_image.alt}
+										width={400}
 									/>
 								</div>
 							</div>

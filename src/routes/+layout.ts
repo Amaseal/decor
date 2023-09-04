@@ -5,3 +5,5 @@ export async function load({ fetch }) {
 	const categories: Category[] = await res.json() 
 	return { categories }
 }
+
+export const prerender = true

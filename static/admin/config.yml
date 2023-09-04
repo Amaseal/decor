@@ -3,13 +3,8 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 search: false
 # These lines should *not* be indented
-media_folder: 'https://ucarecdn.com/' # Media files will be stored in the repo under static/uploads
-public_folder: 'https://ucarecdn.com/' # The src attribute for uploaded media will begin with /uploads
-
-media_library:
-  name: uploadcare
-  config:
-    publicKey: "c02a24c811bf1e585dae"
+media_folder: 'src/lib/images' # Media files will be stored in the repo under static/uploads
+public_folder: '/images' # The src attribute for uploaded media will begin with /uploads
 
 collections:
   - name: 'categories' # Used in routes, e.g., /admin/collections/blog

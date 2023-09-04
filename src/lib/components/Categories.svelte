@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Category } from '../types';
+	import Image from './Image.svelte';
 
 	export let data: Category[];
 </script>
@@ -18,7 +19,7 @@
 				<a href="/categories/{category.slug}">
 					<div class="img-container">
 						<div class="image">
-							<img src="{category.image.source}/thumb" alt={category.image.alt} />
+							<Image src={category.image.source} alt={category.image.alt} width={400} />
 						</div>
 					</div>
 

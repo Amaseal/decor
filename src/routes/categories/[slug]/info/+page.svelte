@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Image from '$lib/components/Image.svelte';
 	import SvelteMarkdown from 'svelte-markdown';
 
 	export let data;
@@ -18,7 +19,9 @@
 			</div>
 			<div class="flex collumn">
 				{#each data.category.info_images as image}
-					<img src="{image}/medium" alt="" />
+					<div class="image">
+						<Image src={image} alt="" width={600} />
+					</div>
 				{/each}
 			</div>
 		</div>
@@ -26,10 +29,8 @@
 </section>
 
 <style>
-	img {
-		height: 500px;
+	.flex > .image {
 		width: 100%;
-		object-fit: cover;
 	}
 	.flex > div {
 		width: 50%;

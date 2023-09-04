@@ -9,6 +9,7 @@
 	import MdiFacebook from '~icons/mdi/facebook';
 	import MdiInstagram from '~icons/mdi/instagram';
 	import IcBaselineTiktok from '~icons/ic/baseline-tiktok';
+	import Image from './Image.svelte';
 
 	let open = false;
 	let width;
@@ -26,7 +27,9 @@
 						{#each categories as category}
 							<a href="/categories/{category.slug}" on:click={() => (open = false)}>
 								<div class="img-container">
-									<img src="{category.image.source}/thumb" alt={category.image.alt} />
+									<div class="image">
+										<Image src={category.image.source} alt={category.image.alt} width={400} />
+									</div>
 								</div>
 
 								{category.title.toUpperCase()}
@@ -103,13 +106,13 @@
 		border-radius: var(--size-s);
 		margin-bottom: var(--size-xs);
 	}
-	img {
+	.image {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
 		transition: transform 0.2s ease;
 	}
-	a:hover > .img-container > img {
+	a:hover > .img-container > .image {
 		transform: scale(1.05);
 	}
 	.burger {

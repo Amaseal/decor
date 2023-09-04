@@ -3,7 +3,7 @@ title: WOODEN INTERIOR PRODUCTS
 intro: We create beautifully designed things - decors, craft kits and furniture
   for nicer living.
 featured_image:
-  source: https://ucarecdn.com/1a21dad4-bb06-4c31-8a52-ff6861a38cd0/
+  source: /images/background.png
   alt: White and grey candleholder houses
 quotes:
   - quote: LOVE FOR WOOD & DETAIL
@@ -13,5 +13,5 @@ seo:
   title: WOODEN INTERIOR PRODUCTS
   description: We create beautifully designed things - decors, craft kits and
     furniture for nicer living.
-  image: https://ucarecdn.com/77830aaa-8717-4855-b459-35247c3410b8/
+  image: /images/background.png
 ---

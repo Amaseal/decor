@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Image from '$lib/components/Image.svelte';
+
 	export let data;
 </script>
 
@@ -16,7 +18,7 @@
 					<p>{part.info}</p>
 				</div>
 				<div class="image">
-					<img src="{part.image}/medium" alt={part.image_alt} />
+					<Image src={part.image} alt={part.image_alt} width={800} />
 				</div>
 			</div>
 		{/each}

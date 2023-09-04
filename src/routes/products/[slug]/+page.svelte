@@ -4,6 +4,7 @@
 	import 'bigger-picture/css';
 	import { onMount } from 'svelte';
 	import Slider from '$lib/components/Slider.svelte';
+	import Image from '$lib/components/Image.svelte';
 
 	onMount(() => {
 		const bp = BiggerPicture({
@@ -12,7 +13,29 @@
 		// grab image links
 		const imageLinks = document.querySelectorAll('#images .image');
 
-		console.log(imageLinks);
+		const meta = import.meta.glob(
+			'../../../lib/images/*.{heic,heif,avif,jpg,jpeg,png,tiff,webp,gif,svg}',
+			{
+				query: {
+					format: 'webp',
+					as: 'picture'
+				},
+				import: 'default',
+				eager: true
+			}
+		);
+
+		for (const image of data.product.images) {
+			// Extract the source from the productImage object
+			const source = image.source;
+
+			if (meta[`../../../lib${source}`]) {
+				console.log(meta[`../../../lib${source}`]);
+				// Add the key-value pair to the filteredImages object
+				image.original = meta[`../../../lib${source}`];
+			}
+		}
+
 		// add click listener to open BiggerPicture
 		for (let link of imageLinks) {
 			link.addEventListener('click', openGallery);
@@ -44,12 +67,14 @@
 				{#each data.product.images as image}
 					<div
 						class="image"
-						data-img="{image.source}/medium"
-						data-thumb="{image.source}/thumb"
+						data-img={image.original.img.src}
+						data-thumb={image.source}
+						data-height={image.original.img.h}
+						data-width={image.original.img.w}
 						data-alt={image.alt}
 						data-sveltekit-preload-data="tap"
 					>
-						<img src="{image.source}/medium" alt={image.alt} />
+						<Image src={image.source} alt={image.alt} width={600} />
 					</div>
 				{/each}
 			</div>

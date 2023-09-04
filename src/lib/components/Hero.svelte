@@ -1,12 +1,18 @@
 <script lang="ts">
 	import type { Home } from '../types';
+	import Image from './Image.svelte';
 	export let data: Home;
 </script>
 
 <section>
 	<div class="container flex gap align">
 		<div class="heroImage">
-			<img src="{data.featured_image.source}/medium" alt={data.featured_image.alt} />
+			<Image
+				src={data.featured_image.source}
+				alt={data.featured_image.alt}
+				width={800}
+				loading="eager"
+			/>
 		</div>
 
 		<div class="flex collumn left full-height info">
