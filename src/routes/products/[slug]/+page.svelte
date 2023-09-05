@@ -4,38 +4,41 @@
 	import 'bigger-picture/css';
 	import { onMount } from 'svelte';
 	import Slider from '$lib/components/Slider.svelte';
-	import Image from '$lib/components/Image.svelte';
+
+	const meta = import.meta.glob(
+		'../../../lib/images/*.{heic,heif,avif,jpg,jpeg,png,tiff,webp,gif,svg}',
+		{
+			query: {
+				w: '1200;600',
+				format: 'webp',
+				as: 'picture'
+			},
+			import: 'default',
+			eager: true
+		}
+	);
+
+	for (const image of data.product.images) {
+		const source = image.source;
+		if (meta[`../../../lib${source}`]) {
+			console.log(meta[`../../../lib${source}`]);
+			image.large = meta[`../../../lib${source}`].img.src;
+			image.small = meta[`../../../lib${source}`].sources.webp[1].src;
+			image.w = meta[`../../../lib${source}`].img.w;
+			image.h = meta[`../../../lib${source}`].img.h;
+		}
+	}
+
+	console.log(data.product.images);
 
 	onMount(() => {
 		const bp = BiggerPicture({
 			target: document.body
 		});
-		// grab image links
+
 		const imageLinks = document.querySelectorAll('#images .image');
 
-		const meta = import.meta.glob(
-			'../../../lib/images/*.{heic,heif,avif,jpg,jpeg,png,tiff,webp,gif,svg}',
-			{
-				query: {
-					format: 'webp',
-					as: 'picture'
-				},
-				import: 'default',
-				eager: true
-			}
-		);
-
-		for (const image of data.product.images) {
-			// Extract the source from the productImage object
-			const source = image.source;
-
-			if (meta[`../../../lib${source}`]) {
-				console.log(meta[`../../../lib${source}`]);
-				// Add the key-value pair to the filteredImages object
-				image.original = meta[`../../../lib${source}`];
-			}
-		}
-
+		console.log(imageLinks);
 		// add click listener to open BiggerPicture
 		for (let link of imageLinks) {
 			link.addEventListener('click', openGallery);
@@ -67,14 +70,14 @@
 				{#each data.product.images as image}
 					<div
 						class="image"
-						data-img={image.original.img.src}
-						data-thumb={image.source}
-						data-height={image.original.img.h}
-						data-width={image.original.img.w}
+						data-img={image.large}
+						data-thumb={image.small}
+						data-height={image.h}
+						data-width={image.w}
 						data-alt={image.alt}
 						data-sveltekit-preload-data="tap"
 					>
-						<Image src={image.source} alt={image.alt} width={600} />
+						<img src={image.small} alt={image.alt} />
 					</div>
 				{/each}
 			</div>

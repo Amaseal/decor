@@ -102,7 +102,12 @@ export type Product = {
 export type ProductImage = {
 	source: string
 	alt: string
+	large?: string
+	small?: string
+	w?: string
+	h?:string
 }
+
 
 type ImgProps = {
 	src: string;

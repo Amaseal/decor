@@ -12,10 +12,10 @@
 
 		let items = images.map((item) => {
 			return {
-				img: `${item.source}`,
-				thumb: `${item.source}/thumb`,
-				height: 500,
-				width: 200,
+				img: item.large,
+				thumb: item.small,
+				height: item.h,
+				width: item.w,
 				alt: item.alt
 			};
 		});
