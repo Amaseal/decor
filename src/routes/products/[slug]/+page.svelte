@@ -4,6 +4,7 @@
 	import 'bigger-picture/css';
 	import { onMount } from 'svelte';
 	import Slider from '$lib/components/Slider.svelte';
+	import SvelteMarkdown from 'svelte-markdown';
 
 	const meta = import.meta.glob(
 		'../../../lib/images/*.{heic,heif,avif,jpg,jpeg,png,tiff,webp,gif,svg}',
@@ -38,7 +39,6 @@
 
 		const imageLinks = document.querySelectorAll('#images .image');
 
-		console.log(imageLinks);
 		// add click listener to open BiggerPicture
 		for (let link of imageLinks) {
 			link.addEventListener('click', openGallery);
@@ -87,8 +87,7 @@
 
 		<div class="text">
 			<h1>{data.product.title}</h1>
-
-			<p>{@html data.product.description}</p>
+			<SvelteMarkdown source={data.product.description} />
 		</div>
 	</div>
 </section>
