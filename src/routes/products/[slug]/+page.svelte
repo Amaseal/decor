@@ -22,15 +22,12 @@
 	for (const image of data.product.images) {
 		const source = image.source;
 		if (meta[`../../../lib${source}`]) {
-			console.log(meta[`../../../lib${source}`]);
 			image.large = meta[`../../../lib${source}`].img.src;
 			image.small = meta[`../../../lib${source}`].sources.webp[1].src;
 			image.w = meta[`../../../lib${source}`].img.w;
 			image.h = meta[`../../../lib${source}`].img.h;
 		}
 	}
-
-	console.log(data.product.images);
 
 	onMount(() => {
 		const bp = BiggerPicture({

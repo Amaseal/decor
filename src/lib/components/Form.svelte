@@ -11,7 +11,7 @@
 		</div>
 
 		<div class="form">
-			<form netlify netlify-honeypot="bot-field">
+			<form netlify netlify-honeypot="bot-field" action="/thank-you">
 				<div class="flex gap small">
 					<label for="name"
 						>Name
