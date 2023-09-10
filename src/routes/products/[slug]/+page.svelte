@@ -10,7 +10,7 @@
 		'../../../lib/images/*.{heic,heif,avif,jpg,jpeg,png,tiff,webp,gif,svg}',
 		{
 			query: {
-				w: '1200;600',
+				w: '1200;900;600',
 				format: 'webp',
 				as: 'picture'
 			},
@@ -21,6 +21,7 @@
 
 	for (const image of data.product.images) {
 		const source = image.source;
+		console.log(meta[`../../../lib${source}`]);
 		if (meta[`../../../lib${source}`]) {
 			image.large = meta[`../../../lib${source}`].img.src;
 			image.small = meta[`../../../lib${source}`].sources.webp[1].src;
@@ -113,6 +114,7 @@
 		border-radius: var(--size-s);
 		max-height: 500px;
 		object-fit: cover;
+		object-position: 50% 80%;
 	}
 
 	.images div:first-of-type,
