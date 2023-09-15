@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Gingerbread
-category: Seasonal decors
+category: CANDLE HOLDERS HOUSE
 featured_image:
   source: /images/gingerbread-1.png
   alt: Gingerbread set
