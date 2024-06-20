@@ -13,7 +13,7 @@ description: >-
   Zero screw, easy to assemble and disassemble. Only 6 parts to put together. 
 
 
-  ``
+  `` ` ``
 
 
   This piece of furniture, although simple, is elegant enough not to spoil the overall look of your home interior. Can be used not only as a bed for your pet, but also as a bedside or coffee table, pot stand or small entryway stool. 
@@ -22,7 +22,10 @@ description: >-
   PETS SLEEPING PLACE – COFFEE TABLE – FLOWERPOT STAND - NIGHT TABLE- ENTRANCE BENCH
 
 
-  * Even if your beloved cat will decline the royal comfort and choose to sleep elsewhere, you will easily find another practical and equally stylish application for the object – use it as a coffee table or a flowerpot stand.
+  `` ` ``
+
+
+  Even if your beloved cat will decline the royal comfort and choose to sleep elsewhere, you will easily find another practical and equally stylish application for the object – use it as a coffee table or a flowerpot stand.
 
 
   **Design:**
@@ -35,8 +38,6 @@ description: >-
 
 
   Round windows size, diam 17cm
-
-
 
 
   **Materials:**
@@ -66,17 +67,10 @@ description: >-
   Total net weight: ca 8 kg
 
 
+  `` ` ``
+
+
   SEE OUR ETSY SHOP AND MAKE YOUR PURCHASE THERE
-
-
-  ```
-
-  <a href='https://www.etsy.com/listing/1673244815/tv-cat-bed-cat-furniture-cat-cute-bed?click_key=3132495a257d1a2393dee035a47ba026702685bf%3A1673244815&click_sum=ddd2658d&ref=shop_home_active_5&frs=1'><button>Link To Cat bed TV White</button></a>
-
-  ```
-
-
-  ``
 
 
   [https://www.etsy.com/shop/ighomedecorstore](https://www.etsy.com/listing/1673244815/tv-cat-bed-cat-furniture-cat-cute-bed?click_key=3132495a257d1a2393dee035a47ba026702685bf%3A1673244815&click_sum=ddd2658d&ref=shop_home_active_5&frs=1)
