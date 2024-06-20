@@ -90,6 +90,10 @@ images:
     alt: Cat bed ShushShush White
   - source: /images/21-1-.jpg
     alt: Cat bed ShushShush White
+  - source: /images/_1058528-insta-2022-jurgis-kreilis-filmday.lv-1-.jpg
+    alt: Cat bed ShushShush White
+  - source: /images/_1058480-insta-2022-jurgis-kreilis-filmday.lv.jpg
+    alt: Cat bed ShushShush White
 seo:
   title: PETS SLEEPING PLACE – COFFEE TABLE – FLOWERPOT STAND - NIGHT TABLE-
     ENTRANCE BENCH
