@@ -1,25 +1,19 @@
 ---
 layout: blog
-title: Mdf painted black
+title: Cat bed TV Black
 category: Pet furniture
 featured_image:
   source: /images/tv-melns.jpg
-  alt: Mdf painted black
+  alt: Cat bed TV Black
 description: >-
-  WE ARE CAT AND DOG PEOPLE. We love animals and we are passionate about
-  beautiful, extraordinary and functional interior design items.
+  This product is small wooden cat cave-bed, offered in 2 different design
+  versions, each in 3 possible colours.
 
 
-  Keeping all this in mind, we have designed a multipurpose design object that will perfectly suit in every pet-lover’s house!
+  Zero screw, easy to assemble and disassemble. Only 6 parts to put together. 
 
 
-  This product is small wooden cat cave-bed, offered in 2 different design versions, each in 3 possible colours.
-
-
-  Zero screw, easy to assemble and disassemble. Only 6 parts to put together. Material birch plywood bleached or painted mdf in black or white.
-
-
-  This piece of furniture, although simple, is elegant enough not to spoil the overall look of your home interior. Can be used not only as a bed for your pet, but also as a bedside or coffee table, pot stand or small entryway stool. An appropriate size beige or graphite grey minky fleece pillow also available to buy.
+  This piece of furniture, although simple, is elegant enough not to spoil the overall look of your home interior. Can be used not only as a bed for your pet, but also as a bedside or coffee table, pot stand or small entryway stool.
 
 
   PETS SLEEPING PLACE – COFFEE TABLE – FLOWERPOT STAND - NIGHT TABLE- ENTRANCE BENCH
@@ -37,16 +31,12 @@ description: >-
   • TV- trapezoidal cat bed with one wide opening - for those cats who like to watch what's going on around them while sleeping.
 
 
-  • SHUSH SHUSH - a trapezoidal cat bed with small round windows on both sides and in the front - for those cats who love peace and like to hide from the noise of the house, quietly watching what's going on around them.
 
 
   **Materials:**
 
 
-  Painted MDF – black or white; will perfectly match with the Scandinavian minimalistic interior design!
-
-
-  Birch plywood- bleached with vax to avoid get dirty. Natural, warm look.
+  Painted MDF – black; will perfectly match with the Scandinavian minimalistic interior design!
 
 
   **Size: ( see image)**
@@ -64,32 +54,35 @@ description: >-
   TV screen size 32.5x23.5cm, sleeping area 51x28.5cm
 
 
-  SHUSH SHUSH front window diam 19.0 cm, side window diam : 17.5cm, sleeping area 51x28.5cm
-
-
   Total net weight: ca 8 kg
+
+
+  ``
+
+
+  SEE OUR ETSY SHOP AND MAKE YOUR PURCHASE THERE
+
+
+  <https://www.etsy.com/shop/ighomedecorstore>
 tags: Cat bed trapeze
 color:
   - Black
 images:
   - source: /images/tv-melns.jpg
-    alt: Mdf painted black
-  - source: /images/shs-melns-2.jpg
-    alt: Mdf painted black
-  - source: /images/tv-melns-3.jpg
-    alt: Mdf painted black
-  - source: /images/shs-melns-3.jpg
-    alt: Mdf painted black
-  - source: /images/shs-melns.jpg
-    alt: Mdf painted black
+    alt: Cat bed TV Black
   - source: /images/tv-melns-2.jpg
-    alt: Mdf painted black
-  - source: /images/21-1-.jpg
-    alt: Mdf painted black
+    alt: Cat bed TV Black
+  - source: /images/_1058220-insta-2022-jurgis-kreilis-filmday.lv.jpg
+    alt: Cat bed TV Black
+  - source: /images/_1058203-insta-2022-jurgis-kreilis-filmday.lv.jpg
+    alt: Cat bed TV Black
+  - source: /images/_1058102-insta-2022-jurgis-kreilis-filmday.lv.jpg
+    alt: Cat bed TV Black
   - source: /images/20.jpg
-    alt: Mdf painted black
+    alt: Cat bed TV Black
 seo:
-  title: Mdf painted black
+  title: PETS SLEEPING PLACE – COFFEE TABLE – FLOWERPOT STAND - NIGHT TABLE-
+    ENTRANCE BENCH
   description: TV- trapezoidal cat bed with one wide opening - for those cats who
     like to watch what's going on around them while sleeping.
   image: /images/tv-melns.jpg
