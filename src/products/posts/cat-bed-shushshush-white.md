@@ -76,7 +76,7 @@ description: >-
   **[https://www.etsy.com/shop/ighomedecorstore](https://www.etsy.com/listing/1673244815/tv-cat-bed-cat-furniture-cat-cute-bed?click_key=3132495a257d1a2393dee035a47ba026702685bf%3A1673244815&click_sum=ddd2658d&ref=shop_home_active_5&frs=1)**
 tags: Cat bed trapeze
 color:
-  - Beige
+  - White
 images:
   - source: /images/_1058364-insta-2022-jurgis-kreilis-filmday.lv.jpg
     alt: Cat bed ShushShush White
