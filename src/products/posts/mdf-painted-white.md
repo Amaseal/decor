@@ -9,7 +9,7 @@ description: >-
   PETS SLEEPING PLACE – COFFEE TABLE – FLOWERPOT STAND - NIGHT TABLE
 
 
-  \-	
+  *
 
 
   Even if your beloved cat will decline the royal comfort and choose to sleep elsewhere, you will easily find another practical and equally stylish application for the object – use it as a coffee table or a flowerpot stand.
@@ -18,7 +18,7 @@ description: >-
   For the item to fit perfectly into your interior, we offer various colour and material options.
 
 
-  \-	
+  *
 
 
   **Materials:**
@@ -48,13 +48,10 @@ description: >-
   Total net weight: ca 10-12kg
 
 
-  The product is a polyhedron, made of 11 elements joined together by special fasteners.
-
-
   The cat models seen on the pictures are our and our neighbours’ pets: Ash Paw; Star, Rudy and Ginger De Constantin.
 
 
-  \-	
+  *
 
 
   SEE OUR ETSY SHOP AND MAKE YOUR PURCHASE THERE
