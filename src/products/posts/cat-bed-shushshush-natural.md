@@ -70,7 +70,7 @@ description: >-
   SEE OUR ETSY SHOP AND MAKE YOUR PURCHASE THERE
 
 
-  **[https://www.etsy.com/shop/ighomedecorstore](https://www.etsy.com/listing/1673244815/tv-cat-bed-cat-furniture-cat-cute-bed?click_key=3132495a257d1a2393dee035a47ba026702685bf%3A1673244815&click_sum=ddd2658d&ref=shop_home_active_5&frs=1)**
+  **<https://www.etsy.com/shop/ighomedecorstore>**
 tags: Cat bed trapeze
 color:
   - Birch wood
