@@ -74,9 +74,9 @@ images:
     alt: Cat bed TV White
   - source: /images/_1058420-insta-2022-jurgis-kreilis-filmday.lv.jpg
     alt: Cat bed TV White
-  - source: /images/_1058341-insta-2022-jurgis-kreilis-filmday.lv.jpg
+  - source: /images/_1058432-insta-2022-jurgis-kreilis-filmday.lv.jpg
     alt: Cat bed TV White
-  - source: /images/_1058337-insta-2022-jurgis-kreilis-filmday.lv.jpg
+  - source: /images/_1058451-insta-2022-jurgis-kreilis-filmday.lv.jpg
     alt: Cat bed TV White
   - source: /images/_1058438-insta-2022-jurgis-kreilis-filmday.lv.jpg
     alt: Cat bed TV White
