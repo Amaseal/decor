@@ -64,15 +64,13 @@ description: >-
 
 
 
-  * We ship worldwide by DPD, Fedex and UPS. The product is shipped flat, not assembled, carefully packed in a specially designed box. Please note that the shipment may be subject to customs duties, if shipped outside the EU.
+  SEE OUR ETSY SHOP AND MAKE YOUR PURCHASE THERE
 
 
-  The cat models seen on the pictures are our pets: Ash Paw and Ginger De Constantin.
+  `<a href='https://www.etsy.com/listing/1673244815/tv-cat-bed-cat-furniture-cat-cute-bed?click_key=3132495a257d1a2393dee035a47ba026702685bf%3A1673244815&click_sum=ddd2658d&ref=shop_home_active_5&frs=1'><button>Link To Cat bed TV White</button></a>`
 
 
-
-
-  * References and additional pictures available upon request.
+  <https://www.etsy.com/listing/1673244815/tv-cat-bed-cat-furniture-cat-cute-bed?click_key=3132495a257d1a2393dee035a47ba026702685bf%3A1673244815&click_sum=ddd2658d&ref=shop_home_active_5&frs=1>
 tags: Cat bed trapeze
 color:
   - Beige
