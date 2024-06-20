@@ -67,7 +67,7 @@ description: >-
   SEE OUR ETSY SHOP AND MAKE YOUR PURCHASE THERE!
 
 
-  https://www.etsy.com/shop/ighomedecorstore
+  **<https://www.etsy.com/shop/ighomedecorstore>**
 tags: Cat bed trapeze
 color:
   - Birch wood
