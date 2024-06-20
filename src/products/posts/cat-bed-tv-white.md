@@ -15,7 +15,7 @@ description: >-
 
 
 
-  This piece of furniture, although simple, is elegant enough not to spoil the overall look of your home interior. Can be used not only as a bed for your pet, but also as a bedside or coffee table, pot stand or small entryway stool. 
+  * This piece of furniture, although simple, is elegant enough not to spoil the overall look of your home interior. Can be used not only as a bed for your pet, but also as a bedside or coffee table, pot stand or small entryway stool. 
 
 
 
@@ -25,7 +25,7 @@ description: >-
 
 
 
-  Even if your beloved cat will decline the royal comfort and choose to sleep elsewhere, you will easily find another practical and equally stylish application for the object – use it as a coffee table or a flowerpot stand.
+  * Even if your beloved cat will decline the royal comfort and choose to sleep elsewhere, you will easily find another practical and equally stylish application for the object – use it as a coffee table or a flowerpot stand.
 
 
   **Design:**
@@ -63,7 +63,7 @@ description: >-
 
 
 
-  We ship worldwide by DPD, Fedex and UPS. The product is shipped flat, not assembled, carefully packed in a specially designed box. Please note that the shipment may be subject to customs duties, if shipped outside the EU.
+  * We ship worldwide by DPD, Fedex and UPS. The product is shipped flat, not assembled, carefully packed in a specially designed box. Please note that the shipment may be subject to customs duties, if shipped outside the EU.
 
 
   The cat models seen on the pictures are our pets: Ash Paw and Ginger De Constantin.
@@ -71,7 +71,7 @@ description: >-
 
 
 
-  References and additional pictures available upon request.
+  * References and additional pictures available upon request.
 tags: Cat bed trapeze
 color:
   - Beige
