@@ -61,7 +61,7 @@ description: >-
   Total net weight: ca 8 kg
 
 
-  * ``
+  *   
 
 
   SEE OUR ETSY SHOP AND MAKE YOUR PURCHASE THERE
