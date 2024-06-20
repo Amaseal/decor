@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: Multifuncional Polyhedron White
+title: Multifuncional Polyhedron MDF White
 category: Pet furniture
 featured_image:
   source: /images/_1000342-insta-2021-.jpg
-  alt: Multifuncional Polyhedron White
+  alt: Multifuncional Polyhedron MDF White
 description: >-
   PETS SLEEPING PLACE – COFFEE TABLE – FLOWERPOT STAND - NIGHT TABLE
 
