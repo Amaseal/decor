@@ -13,9 +13,10 @@ description: >-
   Zero screw, easy to assemble and disassemble. Only 6 parts to put together. 
 
 
+  `p style="margin-left: 25px;"`
 
 
-  * This piece of furniture, although simple, is elegant enough not to spoil the overall look of your home interior. Can be used not only as a bed for your pet, but also as a bedside or coffee table, pot stand or small entryway stool. 
+  This piece of furniture, although simple, is elegant enough not to spoil the overall look of your home interior. Can be used not only as a bed for your pet, but also as a bedside or coffee table, pot stand or small entryway stool. 
 
 
 
