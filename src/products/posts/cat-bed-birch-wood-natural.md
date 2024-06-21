@@ -3,7 +3,7 @@ layout: blog
 title: Cat bed TV Natural
 category: Pet furniture
 featured_image:
-  source: /images/tv-natural-2.jpg
+  source: /images/_1058304-insta-2022-jurgis-kreilis-filmday.lv.jpg
   alt: Cat bed TV Natural
 description: >-
   This product is small wooden cat cave-bed, offered in 2 different design
@@ -28,13 +28,13 @@ description: >-
   Even if your beloved cat will decline the royal comfort and choose to sleep elsewhere, you will easily find another practical and equally stylish application for the object – use it as a coffee table or a flowerpot stand.
 
 
-  Design:
+  **Design:**
 
 
   TV- trapezoidal cat bed with one wide opening - for those cats who like to watch what's going on around them while sleeping.
 
 
-  Materials:
+  **Materials:**
 
 
   Painted MDF – white; will perfectly match with the Scandinavian minimalistic interior design!
@@ -74,19 +74,15 @@ color:
 images:
   - source: /images/tv-natural-2.jpg
     alt: Cat bed TV Natural
-  - source: /images/tv-natural-2.jpg
-    alt: Cat bed TV Natural
   - source: /images/tv-natural.jpg
     alt: Cat bed TV Natural
   - source: /images/tv-natural-1.jpg
     alt: Cat bed TV Natural
-  - source: /images/_1058240-insta-2022-jurgis-kreilis-filmday.lv.jpg
+  - source: /images/_1058263-insta-2022-jurgis-kreilis-filmday.lv.jpg
     alt: Cat bed TV Natural
   - source: /images/_1058243-insta-2022-jurgis-kreilis-filmday.lv.jpg
     alt: Cat bed TV Natural
   - source: /images/20.jpg
-    alt: Cat bed TV Natural
-  - source: /images/21-1-2-.jpg
     alt: Cat bed TV Natural
 seo:
   title: PETS SLEEPING PLACE – COFFEE TABLE – FLOWERPOT STAND - NIGHT TABLE-
