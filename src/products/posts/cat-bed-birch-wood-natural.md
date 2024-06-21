@@ -3,7 +3,7 @@ layout: blog
 title: Cat bed TV Natural
 category: Pet furniture
 featured_image:
-  source: /images/_1058304-insta-2022-jurgis-kreilis-filmday.lv.jpg
+  source: /images/_1058528-insta-2022-jurgis-kreilis-filmday.lv-1-.jpg
   alt: Cat bed TV Natural
 description: >-
   This product is small wooden cat cave-bed, offered in 2 different design
