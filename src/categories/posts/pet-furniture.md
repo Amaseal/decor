@@ -18,7 +18,7 @@ description: >-
   Keeping all this in mind, we have designed a multipurpose design objects that will perfectly suit in every pet-lover’s house!
 description_images:
   image_1:
-    image_1_source: /images/_1058459-insta-2022-jurgis-kreilis-filmday.lv.jpg
+    image_1_source: /images/_1060820-insta-2022-jurgis-kreilis-filmday.lv.jpg
     image_1_alt: Tetrahedon white cat house with ginger cat
   image_2:
     image_2_source: /images/_1102079-insta-2024-jurgis-kreilis-filmday.lv.jpg
