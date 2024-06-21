@@ -21,7 +21,7 @@ description: >-
   * **Materials:**
 
 
-  Veneered – oak. A thin layer of wood oak coating is glued onto a MDF board. The veneered parts are lacquered. The item will look like made of solid wood and will customize your home, awarding to it exclusive and elegant design.
+  Solid wood – ash and oak wood, made of 100% natural ash glued laminated timber with lacquer finish. Due to the natural diversity of wood, each piece has a unique texture. The applied brown or black filler in places of knots, cracks, and other natural defects, make the item look slightly rustic.
 
 
   **Size:**
