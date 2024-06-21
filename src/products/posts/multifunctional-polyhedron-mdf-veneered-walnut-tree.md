@@ -57,7 +57,7 @@ description: >-
   **<https://www.etsy.com/shop/ighomedecorstore>**
 tags: Cat bed polyhedron
 color:
-  - White
+  - Walnut tree
 images:
   - source: /images/_1000317-insta-2021-.jpg
     alt: Multifunctional Polyhedron MDF veneered Walnut tree
