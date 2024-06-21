@@ -1,9 +1,9 @@
 ---
 layout: blog
-title: Multifunctional Polyhedron MDF veneered oak Black
+title: Multifunctional Polyhedron MDF veneered Oak Black
 category: Pet furniture
 featured_image:
-  source: /images/_1057609-insta-2022-jurgis-kreilis-filmday.lv.jpg
+  source: /images/_1057588-insta-2022-jurgis-kreilis-filmday.lv-2-.jpg
   alt: Multifunctional Polyhedron MDF veneered oak Black
 description: >-
   PETS SLEEPING PLACE – COFFEE TABLE – FLOWERPOT STAND - NIGHT TABLE
