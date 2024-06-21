@@ -3,7 +3,7 @@ layout: blog
 title: Cat bed TV White
 category: Pet furniture
 featured_image:
-  source: /images/_1058459-insta-2022-jurgis-kreilis-filmday.lv.jpg
+  source: /images/_1058446-insta-2022-jurgis-kreilis-filmday.lv.jpg
   alt: Cat bed TV White
 description: >-
   This product is small wooden cat cave-bed, offered in 2 different design
