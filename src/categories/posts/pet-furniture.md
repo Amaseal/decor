@@ -18,14 +18,14 @@ description: >-
   Keeping all this in mind, we have designed a multipurpose design objects that will perfectly suit in every pet-lover’s house!
 description_images:
   image_1:
-    image_1_source: /images/_1060820-insta-2022-jurgis-kreilis-filmday.lv.jpg
-    image_1_alt: Tetrahedon white cat house with ginger cat
+    image_1_source: /images/_1060769-insta-2022-jurgis-kreilis-filmday.lv.jpg
+    image_1_alt: Cat hammock black
   image_2:
     image_2_source: /images/_1102079-insta-2024-jurgis-kreilis-filmday.lv.jpg
     image_2_alt: Tetrahedon white cat house with ginger cat
   image_3:
-    image_3_source: /images/_1000325-insta-2021-1-.jpg
-    image_3_alt: Tetrahedon white cat house with ginger cat
+    image_3_source: /images/tv-melns-2.jpg
+    image_3_alt: Trapezoidal cat bed black
 info: >-
   
 
