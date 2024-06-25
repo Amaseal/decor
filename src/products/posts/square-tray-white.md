@@ -3,7 +3,7 @@ layout: blog
 title: Square Tray White
 category: Wooden trays
 featured_image:
-  source: /images/_1001005-insta-2021-.jpg
+  source: /images/14-1-.jpg
   alt: Square Tray White
 description: >-
   Handmade wooden tray, oak wood tray, serving tray, serving board, centerpiece,
@@ -44,9 +44,9 @@ images:
     alt: Square Tray White
   - source: /images/_1001009-insta-2021-.jpg
     alt: Square Tray White
-  - source: /images/_1000997-insta-2021-.jpg
+  - source: /images/2022-03-20-4.jpg
     alt: Square Tray White
-  - source: /images/_1044080-insta-2021-jurgis-kreilis-filmday.lv.jpg
+  - source: /images/_1001010-insta-2021-1-.jpg
     alt: Square Tray White
   - source: /images/_1043993-insta-2021-jurgis-kreilis-filmday.lv.jpg
     alt: Square Tray White
