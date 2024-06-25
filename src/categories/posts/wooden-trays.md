@@ -15,10 +15,10 @@ description: Usable as a serving tray while you have your breakfast, an ottoman
   table. Also perfect housewarming, Birthday or Mother's Day gift.
 description_images:
   image_1:
-    image_1_source: /images/wooden-trays-titulbilde-1-.jpg
+    image_1_source: /images/large_76_a2251_b3c07f924e_4ee4736cf2.jpg
     image_1_alt: wooden tray
   image_2:
-    image_2_source: /images/large_76_a2251_b3c07f924e_4ee4736cf2.jpg
+    image_2_source: /images/wooden-trays-titulbilde-1-.jpg
     image_2_alt: wooden tray
   image_3:
     image_3_source: /images/_1043292-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
