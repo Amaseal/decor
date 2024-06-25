@@ -50,6 +50,8 @@ images:
     alt: Bunny Egg Holder
   - source: /images/_1062882-insta-2023-jurgis-kreilis-filmday.lv.jpg
     alt: Bunny Egg Holder
+  - source: /images/_1062811-insta-2023-jurgis-kreilis-filmday.lv.jpg
+    alt: Bunny Egg Holder
 seo:
   title: Egg Holder, Easter Decorations, Easter Bunny, Easter Egg, Easter Egg
     Wreath, Easter Egg Plate, Easter Bunny Egg cup, Easter Basket, Easter Gift,
