@@ -3,7 +3,7 @@ layout: blog
 title: Cat Scratcher Fish- black, white, natural, walnut
 category: Pet furniture
 featured_image:
-  source: /images/_1102330-insta-2024-jurgis-kreilis-filmday.lv.jpg
+  source: /images/_1102132-insta-2024-jurgis-kreilis-filmday.lv.jpg
   alt: Cat Scratcher Fish- black, white, natural, walnut
 description: >-
   Scratcher is a very necessary item at home for any cat owner.
