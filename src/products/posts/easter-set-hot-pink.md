@@ -25,7 +25,7 @@ description: >-
   Suitable for dinner candles diameter 20-23mm.
 
 
-  * **Diamensions** ( widthxdepthxheight):
+  * **Dimensions:**
 
 
   Rainy clouds-78x78x150mm
