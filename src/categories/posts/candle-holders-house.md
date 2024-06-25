@@ -10,6 +10,7 @@ tags:
   - Advent sets one color
   - Sets with trays
   - Single
+  - Easter
 image:
   source: /images/candle-holders-houses-otrs-variants-1-.jpg
   alt: Candleholders "House" category
