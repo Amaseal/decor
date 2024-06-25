@@ -37,13 +37,14 @@ description: >-
   **Mounting:** we will ship instruction and all the hardware you'll need to install together with product.
 
 
+  *
 
 
   SEE OUR ETSY SHOP AND MAKE YOUR PURCHASE THERE!
 
 
   **<https://www.etsy.com/shop/ighomedecorstore>**
-tags: Christmas
+tags: Kitchen Products
 color:
   - Walnut tree
 images:
