@@ -44,7 +44,7 @@ description: >-
 
 
   **<https://www.etsy.com/shop/ighomedecorstore>**
-tags: Christmas
+tags: Kitchen Products
 color:
   - Natural oak
 images:
