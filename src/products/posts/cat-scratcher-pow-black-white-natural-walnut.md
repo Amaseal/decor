@@ -3,7 +3,7 @@ layout: blog
 title: Cat Scratcher Pow- black, white, natural, walnut
 category: Pet furniture
 featured_image:
-  source: /images/_1102244-insta-2024-jurgis-kreilis-filmday.lv.jpg
+  source: /images/a_1102244-insta-2024-jurgis-kreilis-filmday.lvaaa.jpg
   alt: Cat Scratcher Pow- white
 description: >-
   Scratcher is a very necessary item at home for any cat owner.
