@@ -49,7 +49,7 @@ description: >-
   **<https://www.etsy.com/shop/ighomedecorstore>**
 tags: Easter
 color:
-  - Light pink
+  - Hot Pink
 images:
   - source: /images/_1000855-insta-2021-.jpg
     alt: Easter set Hot Pink
