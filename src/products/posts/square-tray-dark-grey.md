@@ -50,7 +50,7 @@ images:
     alt: Square Tray Dark Grey
   - source: /images/_76a9250.jpg
     alt: Square Tray Dark Grey
-  - source: /images/large_76_a2251_b3c07f924e_4ee4736cf2.jpg
+  - source: /images/_1001026-insta-2021-.jpg
     alt: Square Tray Dark Grey
   - source: /images/_1001018-insta-2021-.jpg
     alt: Square Tray Dark Grey
@@ -61,5 +61,5 @@ seo:
     Tray, Table Decor, Ottoman Tray, Candle Tray, Coffee Table Tray
   description: Handmade wooden tray to organize your decors on the table or to
     serve your breakfast or snacks.
-  image: /images/_1044059-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  image: /images/_1001026-insta-2021-.jpg
 ---
