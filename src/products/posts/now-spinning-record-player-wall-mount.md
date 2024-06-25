@@ -56,7 +56,7 @@ description: >-
 
 
   **<https://www.etsy.com/shop/ighomedecorstore>**
-tags: Advent sets mixed
+tags: For Record Players
 color:
   - Natural oak
   - Walnut tree
