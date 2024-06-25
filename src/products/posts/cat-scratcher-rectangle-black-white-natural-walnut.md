@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: Cat Scratcher Rectangle Black White Natural Walnut
+title: Cat Scratcher Mouse Black White Natural Walnut
 category: Pet furniture
 featured_image:
-  source: /images/_1102017-insta-2024-jurgis-kreilis-filmday.lv.jpg
-  alt: Cat Scratcher Rectangle Black White Natural Walnut
+  source: /images/_1102266-insta-2024-jurgis-kreilis-filmday.lv.jpg
+  alt: Cat Scratcher Mouse Black White Natural Walnut
 description: >-
   Scratcher is a very necessary item at home for any cat owner.
 
@@ -42,12 +42,10 @@ description: >-
   Design shape possible to order natural oak, stained walnut, black or white color.
 
 
-
-
   **Dimensions** **(see image)** (width x height x thickness):
 
 
-  Rectangle-25x52x2cm, carpet-48,5x21cm //9,8x20x5x0,79", carpet 19,10x8,27"
+  Mouse-32x49x2cm, carpet-22x22cm // 12,60x19,29x0,79", carpet diam 8,66"
 
 
   *
@@ -56,10 +54,7 @@ description: >-
   Easy to install. All the necessary fasteners will be included: 2pcs dowels, 2 screws to hang, 2 pcs anti slip rubber pods if use on the floor.
 
 
-  *
-
-
-  **Possible colorways:**
+  * **Possible colorways:**
 
 
   Natural Oak
@@ -88,21 +83,23 @@ color:
   - Natural oak
   - Walnut tree
 images:
-  - source: /images/_1102017-insta-2024-jurgis-kreilis-filmday.lv.jpg
-    alt: Cat Scratcher Rectangle Natural
-  - source: /images/_1102166-insta-2024-jurgis-kreilis-filmday.lv.jpg
-    alt: Cat Scratcher Rectangle Natural
-  - source: /images/_1102234-insta-2024-jurgis-kreilis-filmday.lv.jpg
-    alt: Cat Scratcher Rectangle White
-  - source: /images/_1102029-insta-2024-jurgis-kreilis-filmday.lv.jpg
-    alt: Cat Scratcher Rectangle Natural
-  - source: /images/_1102370-insta-2024-jurgis-kreilis-filmday.lv.jpg
-    alt: Cat Scratcher Rectangle Black White Natural Walnut
-  - source: /images/skrápeu-izméri-a4_page-0001.jpg
-    alt: Cat Scratcher Rectangle Black
+  - source: /images/_1102266-insta-2024-jurgis-kreilis-filmday.lv.jpg
+    alt: Cat Scratcher Mouse White
+  - source: /images/_1102079-insta-2024-jurgis-kreilis-filmday.lv-1-.jpg
+    alt: "Cat Scratcher Mouse Natural "
+  - source: /images/_1102300-insta-2024-jurgis-kreilis-filmday.lv.jpg
+    alt: "Cat Scratcher Mouse Black "
+  - source: /images/_1102118-insta-2024-jurgis-kreilis-filmday.lv.jpg
+    alt: Cat Scratcher Mouse Walnut
+  - source: /images/_1102372-insta-2024-jurgis-kreilis-filmday.lv.jpg
+    alt: Cat Scratcher Mouse Black White Natural Walnut
+  - source: /images/skrápeu-izméri-pele-a4_page-0001.jpg
+    alt: "Cat Scratcher Mouse Black "
+  - source: /images/_1102367-insta-2024-jurgis-kreilis-filmday.lv.jpg
+    alt: Cat Scratcher Mouse Natural Wall Mount
 seo:
   title: Cat Scratcher Wall Mount
   description: Cat Scratcher Wall Mount Cat tree Modern pet furniture Cat
     scratching post wood Scratch tree Scratching board for cat
-  image: /images/_1102017-insta-2024-jurgis-kreilis-filmday.lv.jpg
+  image: /images/_1102079-insta-2024-jurgis-kreilis-filmday.lv-1-.jpg
 ---
