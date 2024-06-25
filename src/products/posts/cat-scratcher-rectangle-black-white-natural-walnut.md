@@ -36,7 +36,7 @@ description: >-
   **Design shape:**
 
 
-  Rectangle
+  Mouse
 
 
   Design shape possible to order natural oak, stained walnut, black or white color.
