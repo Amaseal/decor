@@ -3,7 +3,7 @@ layout: blog
 title: Square Tray Natural Oak
 category: Wooden trays
 featured_image:
-  source: /images/_1043292-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  source: /images/_76a9225.jpg
   alt: Square Tray Natural
 description: >-
   Handmade wooden tray to organize your decors on the table or to serve your
