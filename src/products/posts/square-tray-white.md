@@ -36,7 +36,7 @@ description: >-
 
 
   **<https://www.etsy.com/shop/ighomedecorstore>**
-tags: Sets with trays
+tags: Square Tray
 color:
   - White
 images:
