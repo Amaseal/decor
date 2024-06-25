@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Cat Scratcher Mouse Black White Natural Walnut
+title: Cat Scratcher Mouse- black, white, natural, walnut
 category: Pet furniture
 featured_image:
   source: /images/_1102079-insta-2024-jurgis-kreilis-filmday.lv-1-.jpg
