@@ -25,10 +25,7 @@ description: >-
   Suitable for dinner candles diameter 20-23mm.
 
 
-  *
-
-
-  **Diamensions** ( widthxdepthxheight):
+  * **Diamensions** ( widthxdepthxheight):
 
 
   Rainy clouds-78x78x150mm
@@ -41,6 +38,9 @@ description: >-
 
 
   Easter eggs-78x78x95mm
+
+
+  *
 
 
   SEE OUR ETSY SHOP AND MAKE YOUR PURCHASE THERE!
