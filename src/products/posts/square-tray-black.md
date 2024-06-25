@@ -3,7 +3,7 @@ layout: blog
 title: Square Tray Black
 category: Wooden trays
 featured_image:
-  source: /images/_1001506-insta-2021-.jpg
+  source: /images/_1001056-insta-2021-.jpg
   alt: Square Tray Black
 description: >-
   Handmade wooden tray, oak wood tray, serving tray, serving board, centerpiece,
@@ -40,15 +40,15 @@ tags: Square Tray
 color:
   - Black
 images:
-  - source: /images/_1001506-insta-2021-.jpg
+  - source: /images/_1001056-insta-2021-.jpg
     alt: Square Tray Black
   - source: /images/_1044040-insta-2021-jurgis-kreilis-filmday.lv.jpg
     alt: Square Tray Black
-  - source: /images/_1043989-insta-2021-jurgis-kreilis-filmday.lv.jpg
+  - source: /images/lieldienas2-5-.jpg
     alt: Square Tray Black
-  - source: /images/_1044036-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
+  - source: /images/lieldienas2-31-.jpg
     alt: Square Tray Black
-  - source: /images/_1001056-insta-2021-.jpg
+  - source: /images/_1001506-insta-2021-.jpg
     alt: Square Tray Black
   - source: /images/_1001516-insta-2021-.jpg
     alt: Square Tray Black
