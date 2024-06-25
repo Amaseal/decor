@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: Bird Egg Holder
+title: Heart Egg Holder
 category: Seasonal decors
 featured_image:
-  source: /images/_1062696-insta-2023-jurgis-kreilis-filmday.lv.jpg
-  alt: Bird Egg Holder
+  source: /images/_1062731-insta-2023-jurgis-kreilis-filmday.lv.jpg
+  alt: Heart Egg Holder
 description: >-
   Make your Easter table decor special!
 
@@ -15,7 +15,7 @@ description: >-
   **Material:**
 
 
-  These cute bird egg cups are made from oak wood. Finished with oil ( friendly for kitchenware and toys. Bormawax Italy product)
+  These cute heart egg cups are made from oak wood. Finished with oil ( friendly for kitchenware and toys. Bormawax Italy product)
 
 
   **Dimensions:**
@@ -38,23 +38,25 @@ tags: Easter
 color:
   - Natural oak
 images:
-  - source: /images/_1062696-insta-2023-jurgis-kreilis-filmday.lv.jpg
-    alt: Bird Egg Holder
-  - source: /images/_1062680-insta-2023-jurgis-kreilis-filmday.lv.jpg
-    alt: Bird Egg Holder
-  - source: /images/_1062689-insta-2023-jurgis-kreilis-filmday.lv.jpg
-    alt: Bird Egg Holder
-  - source: /images/_1062816-insta-2023-jurgis-kreilis-filmday.lv.jpg
-    alt: Bird Egg Holder
-  - source: /images/_1062834-insta-2023-jurgis-kreilis-filmday.lv.jpg
-    alt: Bird Egg Holder
+  - source: /images/_1062731-insta-2023-jurgis-kreilis-filmday.lv.jpg
+    alt: Heart Egg Holder
+  - source: /images/_1062706-insta-2023-jurgis-kreilis-filmday.lv.jpg
+    alt: Heart Egg Holder
+  - source: /images/_1062717-insta-2023-jurgis-kreilis-filmday.lv.jpg
+    alt: Heart Egg Holder
+  - source: /images/_1062733-insta-2023-jurgis-kreilis-filmday.lv.jpg
+    alt: Heart Egg Holder
+  - source: /images/_1062787-insta-2023-jurgis-kreilis-filmday.lv.jpg
+    alt: Heart Egg Holder
   - source: /images/_1062811-insta-2023-jurgis-kreilis-filmday.lv.jpg
     alt: Bird Egg Holder
+  - source: /images/_1062865-insta-2023-jurgis-kreilis-filmday.lv.jpg
+    alt: Heart Egg Holder
 seo:
   title: Egg Holder, Easter Decorations, Easter Bunny, Easter Egg, Easter Egg
     Wreath, Easter Egg Plate, Easter Bunny Egg cup, Easter Basket, Easter Gift,
     Egg Hunt
   description: These cute bunny egg cups are made from oak wood. Finished with oil
     ( friendly for kitchenware and toys. Bormawax Italy product)
-  image: /images/_1062696-insta-2023-jurgis-kreilis-filmday.lv.jpg
+  image: /images/_1062731-insta-2023-jurgis-kreilis-filmday.lv.jpg
 ---
