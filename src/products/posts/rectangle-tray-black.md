@@ -6,15 +6,14 @@ featured_image:
   source: /images/_1043868-insta-2021-jurgis-kreilis-filmday.lv.jpg
   alt: Rectangle Tray Black
 description: >-
-  Handmade wooden tray, oak wood tray, serving tray, serving board, centerpiece,
-  ottoman tray, tray for candles, tray for decorations, tray organizer, Candle
-  plate, Advent plate, Breakfast tray, tea tray.
+  Handmade wooden tray to organize your decors on the table or to serve your
+  breakfast or snacks.
 
 
   *
 
 
-  Handmade wooden tray to organize your decors on the table or to serve your breakfast or snacks.
+  Wooden serving tray is a perfect to be used for placing decorations for any holidays- Easter, Advent time, Christmas. You can use it as a serving tray while you have your breakfast, an ottoman tray in your living room or as a candle or decoration holder on your bedside table. Also perfect housewarming, Birthday or Mother's Day gift.
 
 
   **Dimensions:** 42 x 20 x 2,5cm (lenghtxwidthxheight)
