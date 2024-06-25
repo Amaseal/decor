@@ -54,7 +54,7 @@ images:
   - source: /images/_1001152-insta-2021-.jpg
     alt: Rectangle Tray Natural Oak
 seo:
-  title: Wooden Tray, Wood Tray, Serving Tray, Decorative Tray, Table Tray, Tea
+  title: Wooden Tray, Wood Tray, Serving Tray, Decorative Tray, Table Tray,,Tea
     Tray, Table Decor, Ottoman Tray, Candle Tray, Coffee Table Tray
   description: Handmade wooden tray to organize your decors on the table or to
     serve your breakfast or snacks.
