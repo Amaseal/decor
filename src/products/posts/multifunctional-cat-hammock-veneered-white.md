@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Multifunctional Cat Hammock veneered White
+title: Multifunctional Shelf with Cat Hammock MDF painted White
 category: Pet furniture
 featured_image:
   source: /images/_1060624-insta-2022-jurgis-kreilis-filmday.lv.jpg
