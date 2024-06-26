@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Rectangle Tray Dark Grey
+title: Rectangle Tray MDF painted Dark Grey
 category: Wooden trays
 featured_image:
   source: /images/large_76_a2251_b3c07f924e_4ee4736cf2.jpg
