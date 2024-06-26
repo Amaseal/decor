@@ -1,4 +1,4 @@
 ---
 layout: blog
-title: Cat Scratcher.
+title: "Cat Scratcher "
 ---
