@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Square Tray Dark Grey
+title: Square Tray MDF painted Dark Grey
 category: Wooden trays
 featured_image:
   source: /images/_1044059-insta-2021-jurgis-kreilis-filmday.lv.jpg
