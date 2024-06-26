@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: Wall Hooks Walnut Single Layer
+title: Wall Hooks Natural Oak Single Layer
 category: Other products
 featured_image:
-  source: /images/whatsapp-image-2024-05-06-at-13.39.55.jpeg
-  alt: Wall Hooks Walnut Single Layer
+  source: /images/whatsapp-image-2024-05-06-at-13.38.13.jpeg
+  alt: Wall Hooks Natural Oak Single Layer
 description: >-
   Coat rack and key holder is of course one of the basic necessities in any
   home.
@@ -29,6 +29,12 @@ description: >-
 
 
   Perfect for hanging clothing: coats, hats, tote bags, towels, also keys, use to put sun glasses or mail, etc. or have it as a tasty wall decoration when not in use.
+
+
+  **Materials:**
+
+
+  Varnished Natural Oak
 
 
   **Dimensions:**
@@ -61,18 +67,20 @@ description: >-
   **<https://www.etsy.com/shop/ighomedecorstore>**
 tags: Hooks
 color:
-  - Walnut tree
+  - Natural oak
 images:
-  - source: /images/whatsapp-image-2024-05-06-at-13.39.55.jpeg
-    alt: Wall Hooks Walnut Single Layer
-  - source: /images/whatsapp-image-2024-05-06-at-13.39.55-1-.jpeg
-    alt: Wall Hooks Walnut Single Layer
-  - source: /images/whatsapp-image-2024-05-06-at-13.39.55-2-.jpeg
-    alt: Wall Hooks Walnut Single Layer
-  - source: /images/whatsapp-image-2024-05-06-at-13.39.54-1-.jpeg
-    alt: Wall Hooks Walnut Single Layer
+  - source: /images/whatsapp-image-2024-05-06-at-13.38.13.jpeg
+    alt: Wall Hooks Natural Oak Single Layer
+  - source: /images/whatsapp-image-2024-05-06-at-13.39.47.jpeg
+    alt: Wall Hooks Natural Oak Single Layer
+  - source: /images/whatsapp-image-2024-05-06-at-13.39.52.jpeg
+    alt: Wall Hooks Natural Oak Single Layer
+  - source: /images/whatsapp-image-2024-05-06-at-13.38.13-1-.jpeg
+    alt: Wall Hooks Natural Oak Single Layer
+  - source: /images/whatsapp-image-2024-05-06-at-13.38.13-3-.jpeg
+    alt: Wall Hooks Natural Oak Single Layer
   - source: /images/whatsapp-image-2024-05-06-at-13.38.12-1-.jpeg
-    alt: Wall Hooks Walnut Single Layer
+    alt: Wall Hooks Natural Oak Single Layer
 seo:
   title: Wooden coat & hat rack modern key holder Scandinavian design wall hooks
     Stylish oak wood rack Wooden Towel Hanger, Hooks for Wall, Sauna rack Solid
@@ -80,5 +88,5 @@ seo:
   description: Our coat rack offered with 2x3 and 2x6 hooks – because of its small
     size, our coat rack can fit in almost anywhere – from your hall, bathroom,
     and kitchen to your bedroom.
-  image: /images/whatsapp-image-2024-05-06-at-13.39.55.jpeg
+  image: /images/whatsapp-image-2024-05-06-at-13.38.13-1-.jpeg
 ---
