@@ -43,7 +43,7 @@ description: >-
   Black;
 
 
-  Black+Natural.
+  Black+Natural
 
 
   If you would like a wall mounted version please see other listings in our shop.
