@@ -40,7 +40,7 @@ description: >-
   **Size:**
 
 
-  **Size shelf**: ( see drawing image)
+  **Size shelf**: (see drawing image)
 
 
   **Total** Height: 90cm (35,4 in)
@@ -58,7 +58,7 @@ description: >-
   Total net weight: ca 18 kg
 
 
-  Brut weigt +/-20kg, packaging size 90x35x21cm (35,4x14x8,26 in)
+  Brut weight +/-20kg, packaging size 90x35x21cm (35,4x14x8,26 in)
 
 
   *
