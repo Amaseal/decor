@@ -28,10 +28,10 @@ description: >-
   **Outer dimensions**:( width x depth x height)
 
 
-  Stand: 40x27x10cm (15,75x10,63x3,94")
+  Stand: 40x27x10cm (15,75 x 10,63 x 3,94")
 
 
-  Tray: 35,5x27x6cm (3,98x10,63x2,36)
+  Tray: 35,5x27x6cm (3,98 x 10,63 x 2,36)
 
 
   **Mounting:** we will ship instruction and all the hardware you'll need to install together with product.
