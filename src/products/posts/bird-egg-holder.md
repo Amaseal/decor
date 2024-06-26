@@ -21,7 +21,7 @@ description: >-
   **Dimensions:**
 
 
-  Heart size: 9x8,5cm (3,54x3,34 in.)
+  Heart size: 9 x 8,5cm (3,54 x 3,34 in.)
 
 
   Heart Thickness - 0,79 in. / cm 2 cm
