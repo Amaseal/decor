@@ -25,7 +25,7 @@ description: >-
   These are meant to be mounted to a wall. You will get your stand together with industrial tough double sided mounting tape to fix your holder to the wall. If you have rough wall , please write us short message and we will prepare your holder with option for hanging it on the wall on screws.
 
 
-  **Dimensions** (width, height, depth):
+  **Dimensions** (width x height x depth):
 
 
   30x3,5x7cm (11,8x1,38x2,8 inch)
