@@ -21,7 +21,7 @@ description: >-
   **Dimensions:**
 
 
-  Bird: 11cm\*5 cm\*2cm (4,4x1,9x0,79 inch)
+  Bird: 11cm\*5 cm\*2cm (4,4 x 1,9x 0 ,79 inch)
 
 
   Hole: diam 3,5cm (1,37 inch)
