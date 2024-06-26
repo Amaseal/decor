@@ -21,7 +21,7 @@ description: >-
   **Dimensions:**
 
 
-  Bunny: 12,5cm\*6,5cm\*2cm (5x2,5x0,79 inch)
+  Bunny: 12,5cm\*6,5cm\*2cm (5 x 2,5 x 0,79 inch)
 
 
   Hole: diam 3,5cm (1,37 inch)
