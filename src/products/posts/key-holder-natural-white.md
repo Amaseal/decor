@@ -53,7 +53,7 @@ description: >-
 
 
   **<https://www.etsy.com/shop/ighomedecorstore>**
-tags: Key Holders
+tags: "Key Holders "
 color:
   - Natural oak
   - White
