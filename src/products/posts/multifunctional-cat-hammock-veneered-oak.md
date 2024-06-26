@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Multifunctional Cat Hammock veneered Oak
+title: Multifunctional Shelf with Cat Hammock natural Oak
 category: Pet furniture
 featured_image:
   source: /images/_1060659-insta-2022-jurgis-kreilis-filmday.lv.jpg
