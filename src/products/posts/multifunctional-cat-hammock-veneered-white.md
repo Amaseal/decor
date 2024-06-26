@@ -34,7 +34,7 @@ description: >-
   **Materials:**
 
 
-  Painted MDF white -will perfectly match with the Scandinavian minimalistic interior design.
+  MDF painted  white -will perfectly match with the Scandinavian minimalistic interior design.
 
 
   **Size:**
