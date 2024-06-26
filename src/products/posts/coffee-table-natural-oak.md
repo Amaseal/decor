@@ -25,7 +25,7 @@ description: >-
   **Colours to choose**: natural oak, stained walnut color
 
 
-  **Outer dimensions**:( widthxdepthxheight)
+  **Outer dimensions**:( width x depth x height)
 
 
   Stand: 40x27x10cm (15,75x10,63x3,94")
