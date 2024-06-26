@@ -21,10 +21,13 @@ description: >-
   **Dimensions:**
 
 
-  Bird: 11cm\*5 cm\*2cm (4,4x1,9x0,79 inch)
+  Heart size: 9x8,5cm (3,54x3,34 in.)
 
 
-  Hole: diam 3,5cm (1,37 inch)
+  Heart Thickness - 0,79 in. / cm 2 cm
+
+
+  Hole: diam 3,5cm (1,37 in.)
 
 
   *
