@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Square Tray Black
+title: Square Tray MDF painted Black
 category: Wooden trays
 featured_image:
   source: /images/_1001056-insta-2021-.jpg
