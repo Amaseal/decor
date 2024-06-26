@@ -1,49 +1,55 @@
 ---
 layout: blog
-title: Key Holder Natural + Black
+title: Wall Hooks Walnut Single Layer
 category: Other products
 featured_image:
-  source: /images/img-20230406-wa0023-1-.jpg
-  alt: Key Holder Natural + Black
+  source: /images/whatsapp-image-2024-05-06-at-13.39.55.jpeg
+  alt: Wall Hooks Walnut Single Layer
 description: >-
-  Our family creates products mostly first for our needs. We finished our house
-  5 years ago and we produced everything for our house interior in our
-  carpentry. Starting from windows, doors, continuing with kitchen, living room,
-  bedroom, bathroom, furniture, furniture for our kids, our pets furniture and
-  every piece for home decor. 
+  Coat rack and key holder is of course one of the basic necessities in any
+  home.
 
 
   *
 
 
-  All products are created with love for our home and tested in life from our family members and friends who rather often after seeing our products asked to make the same for them or for presents. This was also reason to start for our Etsy shop, just to share. We are happy for each purchase, really glad that people around the world like our products.
+  Our family creates products mostly first for our needs. We finished our house 5 years ago and we produced everything for our house interior in our carpentry. Starting from windows, doors, continuing with kitchen, living room, bedroom, bathroom, furniture, furniture for our kids, our pets furniture and every piece for home decoration. 
 
 
   *
 
 
-  And key holder is of course one of the basic necessities in any home.
-
-
-  This is natural oak and painted MDF mix design. Modern, elegant, minimalistic style. 
+  Our coat rack offered with 2x3 and 2x6 hooks – because of its small size, our coat rack can fit in almost anywhere – from your hall, bathroom, and kitchen to your bedroom.
 
 
   *
 
 
-  Natural + white or natural + black depending on what suits a particular interior better with one or 2 shelfs to put you mail, bills, sun glasses, wallet, phone or watch.
+  Nice option is to place coat racks next to each other if you’re in need of more space for your clothes or one above the other and use smaller one for keys.
 
 
-  **Dimensions** (width x height x depth)
+  Perfect for hanging clothing: coats, hats, tote bags, towels, also keys, use to put sun glasses or mail, etc. or have it as a tasty wall decoration when not in use.
 
 
-  Model with **1 shelf:** 25x38x10,5cm (9,84x15x4,13 inch)
+  **Dimensions:**
 
 
-  Model with **2 shelves**: 25x44x10,5cm (9,84x17,31x4,13 inch)
+  **2x3 hooks** - 7,5" (19cm) wide / 2,8" (7cm) deep / 5,3" ( 13,5cm) tall
 
 
-  **Mounting:** we will ship instruction and all the hardware you'll need to install together with product.
+  **2x6 hooks** - 16,5" (42cm) wide / 2,8" (7cm) deep / 5,3" ( 13,5cm) tall
+
+
+  **Mounting:**
+
+
+  We will add dowels and screws to the rack, but please ensure correct dowels & screws are used to mount rack to your specific wall. Load capacity will vary depending on dowels & screws.
+
+
+  **Note:** Wood is a living material which changes imperceptibly over time. All wood reacts to sunlight, humidity, temperature & can vary in grain pattern & colouration.
+
+
+  **FYI:** It is possible to pack 2 pcs in one shipment for one price.
 
 
   *
@@ -53,27 +59,26 @@ description: >-
 
 
   **<https://www.etsy.com/shop/ighomedecorstore>**
-tags: "Key Holders "
+tags: Hooks
 color:
-  - Natural oak
-  - Black
+  - Walnut tree
 images:
-  - source: /images/img-20230406-wa0023-1-.jpg
-    alt: Key Holder Natural + Black 1 shelf
-  - source: /images/img-20230411-wa0008.jpg
-    alt: Key Holder Natural + Black 1 shelf
-  - source: /images/img-20230406-wa0025.jpg
-    alt: Key Holder Natural + Black 1 shelf
-  - source: /images/img-20230406-wa0020.jpg
-    alt: Key Holder Natural + Black 2 shelves
+  - source: /images/whatsapp-image-2024-05-06-at-13.39.55.jpeg
+    alt: Wall Hooks Walnut Single Layer
+  - source: /images/whatsapp-image-2024-05-06-at-13.39.55-1-.jpeg
+    alt: Wall Hooks Walnut Single Layer
+  - source: /images/whatsapp-image-2024-05-06-at-13.39.55-2-.jpeg
+    alt: Wall Hooks Walnut Single Layer
+  - source: /images/whatsapp-image-2024-05-06-at-13.39.54-1-.jpeg
+    alt: Wall Hooks Walnut Single Layer
   - source: /images/whatsapp-image-2024-05-06-at-13.38.12-1-.jpeg
-    alt: Key Holder Natural + Black wall mounting
+    alt: Wall Hooks Walnut Single Layer
 seo:
-  title: Modern Entryway Key Holder, Key Shelf, Key Organizer Modern, Key holder
-    for wall, Entryway Organizer for Home, Wall MAil Organiser
-  description: This is natural oak and painted MDF mix design. Modern, elegant,
-    minimalistic style.Natural +white or natural + black depending on what suits
-    a particular interior better with one or 2 shelfs to put you mail, bills,
-    sun glasses, wallet, phone or watch.
-  image: /images/img-20230406-wa0020.jpg
+  title: Wooden coat & hat rack modern key holder Scandinavian design wall hooks
+    Stylish oak wood rack Wooden Towel Hanger, Hooks for Wall, Sauna rack Solid
+    Scandinavian style oak wood coat& hat& towel & key rack.
+  description: Our coat rack offered with 2x3 and 2x6 hooks – because of its small
+    size, our coat rack can fit in almost anywhere – from your hall, bathroom,
+    and kitchen to your bedroom.
+  image: /images/whatsapp-image-2024-05-06-at-13.39.55.jpeg
 ---
