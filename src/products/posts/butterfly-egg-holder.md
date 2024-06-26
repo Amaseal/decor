@@ -21,7 +21,7 @@ description: >-
   **Dimensions:**
 
 
-  Butterfly: 10cm\*7 cm\*2cm (3,9x2,8x0,79 inch)
+  Butterfly: 10cm\*7 cm\*2cm (3,9 x 2,8 x 0,79 inch)
 
 
   Hole: diam 3,5cm (1,37 inch)
