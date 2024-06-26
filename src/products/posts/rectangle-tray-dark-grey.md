@@ -16,7 +16,7 @@ description: >-
   Wooden serving tray is a perfect to be used for placing decorations for any holidays- Easter, Advent time, Christmas. You can use it as a serving tray while you have your breakfast, an ottoman tray in your living room or as a candle or decoration holder on your bedside table. Also perfect housewarming, Birthday or Mother's Day gift.
 
 
-  **Dimensions:** 42 x 20 x 2,5cm (lenght  x width x height)
+  **Dimensions:** 42 x 20 x 2,5cm (length  x width x height)
 
 
   **Material:** MDF painted Dark Grey
