@@ -63,10 +63,10 @@ description: >-
   Stained Walnut 
 
 
-  Black MDF
+  MDF painted Black
 
 
-  White MDF
+  MDF painted White
 
 
   *
@@ -76,7 +76,7 @@ description: >-
 
 
   **<https://www.etsy.com/shop/ighomedecorstore>**
-tags: Cat Scratcher
+tags: "Cat Scratcher "
 color:
   - Black
   - White
