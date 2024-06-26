@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Rectangle Tray Black
+title: Rectangle Tray MDF painted Black
 category: Wooden trays
 featured_image:
   source: /images/_1043868-insta-2021-jurgis-kreilis-filmday.lv.jpg
