@@ -43,7 +43,7 @@ description: >-
   **Size shelf**: (see drawing image)
 
 
-  **Total** Height: 90cm (35,4 in)
+  **Total** **Heigh**t: 90cm (35,4 in)
 
 
   **Width**: 61 cm (24 in)
