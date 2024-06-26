@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Rectangle Tray White
+title: Rectangle Tray MDF painted White
 category: Wooden trays
 featured_image:
   source: /images/_1001106-insta-2021-.jpg
