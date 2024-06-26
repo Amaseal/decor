@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Square Tray White
+title: Square Tray MDF painted White
 category: Wooden trays
 featured_image:
   source: /images/14-1-.jpg
