@@ -25,7 +25,7 @@ description: >-
   This is a free standing version that is meant to be set on a table.
 
 
-  **Dimensions** (width, height, depth):
+  **Dimensions** (width x height x depth):
 
 
   30x3,5x7cm (11,8x1,38x2,8 inch)
