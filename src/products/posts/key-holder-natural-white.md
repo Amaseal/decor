@@ -34,17 +34,13 @@ description: >-
   Natural +white or natural + black depending on what suits a particular interior better with one or 2 shelfs to put you mail, bills, sun glasses, wallet, phone or watch.
 
 
-
-
-  **Dimensions** (width x height x depth)
+  **Dimensions** (widthxheightxdepth)
 
 
   Model with **1 shelf:** 25x38x10,5cm (9,84x15x4,13 inch)
 
 
   Model with **2 shelves**: 25x44x10,5cm (9,84x17,31x4,13 inch)
-
-
 
 
   **Mounting:** we will ship instruction and all the hardware you'll need to install together with product.
