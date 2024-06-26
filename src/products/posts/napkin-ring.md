@@ -31,16 +31,16 @@ description: >-
   *
 
 
-  These natural oak wood napkin rings will make your table setting elegant, modern, stylish, festive at the same time.
+  These natural oak wood napkin rings will make your table setting elegant, modern, stylish, festive at the same time
 
 
-  Finished with oil ( friendly for kitchenware and toys. Bormawax Italy product)
+  Finished with oil (friendly for kitchenware and toys. Bormawax Italy product)
 
 
   *
 
 
-  We can pack your chosen set in gift box if you like to make these rings as a gift for someones birthday, Home warming, etc.
+  We can pack your chosen set in gift box if you like to make these rings as a gift for someone's birthday, Home warming, etc.
 
 
   *
