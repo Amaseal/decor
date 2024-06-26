@@ -34,7 +34,7 @@ description: >-
   **Materials:**
 
 
-  Painted MDF black -will perfectly match with the Scandinavian minimalistic interior design.
+  MDF painted  black -will perfectly match with the Scandinavian minimalistic interior design.
 
 
   **Size:**
