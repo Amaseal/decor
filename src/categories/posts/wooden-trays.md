@@ -16,10 +16,10 @@ description: Usable as a serving tray while you have your breakfast, an ottoman
 description_images:
   image_1:
     image_1_source: /images/large_76_a2251_b3c07f924e_4ee4736cf2.jpg
-    image_1_alt: wooden tray
+    image_1_alt: Rectangle grey tray
   image_2:
     image_2_source: /images/wooden-trays-titulbilde-1-.jpg
-    image_2_alt: wooden tray
+    image_2_alt: wooden trays
   image_3:
     image_3_source: /images/_1043292-insta-2021-jurgis-kreilis-filmday.lv-1-.jpg
     image_3_alt: wooden tray
