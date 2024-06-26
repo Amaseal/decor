@@ -22,7 +22,7 @@ description: >-
   **Dimensions**
 
 
-  Diameter: 25cm (9,8 inch), thickness 0,5cm ( 0,20 inch)
+  Diameter: 25cm (9,8 inch), thickness 0,5cm (0,20 inch)
 
 
   **Colorways:**
