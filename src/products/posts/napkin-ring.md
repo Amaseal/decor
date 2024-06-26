@@ -6,8 +6,9 @@ featured_image:
   source: /images/_1063273-500px-2023-jurgis-kreilis-filmday.lv.jpg
   alt: Napkin Ring
 description: >-
-  Napkin Ring, Napkin Holder, Napkin Ring, Wedding Table Decor, Wedding Decor,
-  Table Decor, Fall Table Decor, Napkin Ring Holder, Party Decor
+  Napkin Ring, Napkin Holder, Napkin Ring, Wedding Table Decoration, Wedding
+  Decoration, Table Decoration, Fall Table Decoration, Napkin Ring Holder, Party
+  Decoration
 
 
   *
