@@ -19,6 +19,9 @@ description: >-
   *
 
 
+  This particular model is with single layer hooks, with more minimalistic look. But if you are looking for more hooks see our other listings.
+
+
   Our coat rack offered with 2x3 and 2x6 hooks – because of its small size, our coat rack can fit in almost anywhere – from your hall, bathroom, and kitchen to your bedroom.
 
 
