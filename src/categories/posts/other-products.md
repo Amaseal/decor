@@ -9,7 +9,7 @@ tags:
   - Easter
 image:
   source: /images/plates-turetajs-27-.jpg
-  alt: Other products - plasu turetajs
+  alt: Other products - record player holder
 description: ""
 description_images:
   image_1:
