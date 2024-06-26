@@ -1,4 +1,4 @@
 ---
 layout: blog
-title: For Record Players
+title: For  Record Players
 ---
