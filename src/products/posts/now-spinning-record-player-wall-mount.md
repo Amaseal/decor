@@ -43,7 +43,7 @@ description: >-
   Black;
 
 
-  Black+Natural.
+  Black+Natural
 
 
   If you would like a free standing version that is meant to be set on a table please see other listings in our shop.
