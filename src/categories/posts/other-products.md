@@ -8,8 +8,8 @@ tags:
   - For Record Players
   - Easter
 image:
-  source: /images/other-products-1-.jpg
-  alt: Other products - cutting boards
+  source: /images/plates-turetajs-27-.jpg
+  alt: Other products - plasu turetajs
 description: ""
 description_images:
   image_1:
