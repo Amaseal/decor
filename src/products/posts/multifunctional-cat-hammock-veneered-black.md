@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Multifunctional Cat Hammock veneered Black
+title: Multifunctional Shelf with Cat Hammock MDF painted Black
 category: Pet furniture
 featured_image:
   source: /images/_1060769-insta-2022-jurgis-kreilis-filmday.lv.jpg
