@@ -19,7 +19,7 @@ description: >-
   Each peace is unique and will look bitt different wood pieces have natural knots, imperfections, and patterns that differ.
 
 
-  **Dimensions**
+  **Dimensions:**
 
 
   Diameter: 25cm (9,8 inch), thickness 0,5cm (0,20 inch)
