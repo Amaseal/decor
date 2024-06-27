@@ -19,11 +19,11 @@
 		<div class="flex gap small footer">
 			<div class="logo">
 				<div class="flex gap small align">
-					<img src={sgHomeLogo} alt="logo" />
+					<img src="../images/sg_logo-01.svg" alt="logo" />
 					<p>HANDMADE WOODEN <br /> INTERIOR PRODUCTS</p>
 				</div>
 				<div class="flex gap small align">
-					<img src={sgLogo} alt="logo" />
+					<img src="../images/sg.svg" alt="logo" />
 					<p>JOINERY&CARPENTRY <br /> SERVICES</p>
 				</div>
 			</div>

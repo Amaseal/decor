@@ -1,86 +1,53 @@
 <script lang="ts">
 	export let data;
-	import BiggerPicture from 'bigger-picture/svelte';
-	import 'bigger-picture/css';
-	import { onMount } from 'svelte';
 	import Slider from '$lib/components/Slider.svelte';
 	import SvelteMarkdown from 'svelte-markdown';
-
-	const meta = import.meta.glob(
-		'../../../lib/images/*.{heic,heif,avif,jpg,jpeg,png,tiff,webp,gif,svg}',
-		{
-			query: {
-				w: '1200;900;600',
-				format: 'webp',
-				as: 'picture'
-			},
-			import: 'default',
-			eager: true
-		}
-	);
-
-	for (const image of data.product.images) {
-		const source = image.source;
-		console.log(meta[`../../../lib${source}`]);
-		if (meta[`../../../lib${source}`]) {
-			image.large = meta[`../../../lib${source}`].img.src;
-			image.small = meta[`../../../lib${source}`].sources.webp[1].src;
-			image.w = meta[`../../../lib${source}`].img.w;
-			image.h = meta[`../../../lib${source}`].img.h;
-		}
-	}
-
-	onMount(() => {
-		const bp = BiggerPicture({
-			target: document.body
-		});
-
-		const imageLinks = document.querySelectorAll('#images .image');
-
-		// add click listener to open BiggerPicture
-		for (let link of imageLinks) {
-			link.addEventListener('click', openGallery);
-		}
-
-		// open BiggerPicture
-		function openGallery(e: Event) {
-			e.preventDefault();
-			bp.open({
-				items: imageLinks,
-				el: e.currentTarget as HTMLElement
-			});
-		}
-	});
+	import { LightboxGallery, GalleryImage, GalleryThumbnail } from 'svelte-lightbox';
 
 	let width: number;
+	$: console.log(width);
 </script>
 
 <svelte:head>
 	<title>{data.product.seo.title}</title>
 	<meta name="description" content={data.product.seo.description} />
 </svelte:head>
-<svelte:window bind:innerWidth={width} />
+<svelte:window bind:outerWidth={width} />
 
 <section>
 	<div class="container flex gap small">
-		{#if width > 900}
-			<div class="images" id="images">
-				{#each data.product.images as image}
-					<div
-						class="image"
-						data-img={image.large}
-						data-thumb={image.small}
-						data-height={image.h}
-						data-width={image.w}
-						data-alt={image.alt}
-						data-sveltekit-preload-data="tap"
+		{#if width != null}
+			{#if width < 900}
+				<Slider images={data.product.images} />
+			{:else}
+				<div class="images" id="images">
+					<LightboxGallery
+						arrowsConfig={{
+							color: 'black',
+							enableKeyboardControl: true,
+							character: 'loop'
+						}}
 					>
-						<img src={image.small} alt={image.alt} />
-					</div>
-				{/each}
-			</div>
-		{:else}
-			<Slider images={data.product.images} />
+						<svelte:fragment slot="thumbnail">
+							{#each data.product.images as image, index}
+								<div class="image">
+									<GalleryThumbnail id={index}>
+										<div class="wrapper">
+											<img class="thumbnail thmb" src={image.source} alt={image.alt} />
+										</div>
+									</GalleryThumbnail>
+								</div>
+							{/each}
+						</svelte:fragment>
+
+						{#each data.product.images as image, index}
+							<GalleryImage>
+								<img src={image.source} alt={image.alt} />
+							</GalleryImage>
+						{/each}
+					</LightboxGallery>
+				</div>
+			{/if}
 		{/if}
 
 		<div class="text">
@@ -110,9 +77,12 @@
 		gap: var(--size-s);
 		grid-template-columns: 1fr 1fr;
 	}
+	.thmb {
+		max-height: 500px;
+	}
 	img {
 		border-radius: var(--size-s);
-		max-height: 500px;
+
 		object-fit: cover;
 		object-position: 50% 80%;
 	}

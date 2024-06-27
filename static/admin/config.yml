@@ -3,7 +3,7 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 search: false
 # These lines should *not* be indented
-media_folder: 'src/lib/images' # Media files will be stored in the repo under static/uploads
+media_folder: 'static/images' # Media files will be stored in the repo under static/uploads
 public_folder: '/images' # The src attribute for uploaded media will begin with /uploads
 
 collections:
@@ -16,7 +16,7 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Order', name: 'order', widget: 'number' }
-        
+
       - label: 'Tags'
         name: 'tags'
         widget: 'relation'
@@ -29,58 +29,58 @@ collections:
         name: 'image'
         widget: 'object'
         collapsed: false
-        fields: 
-          - {lable: "Source", name: "source", widget: "image"}
-          - {label: "Alt", name: "alt", widget: "string"}
-  
+        fields:
+          - { lable: 'Source', name: 'source', widget: 'image' }
+          - { label: 'Alt', name: 'alt', widget: 'string' }
+
       - { label: 'Description', name: 'description', widget: 'markdown', required: false }
-        
+
       - label: 'Description Images'
         name: 'description_images'
         widget: 'object'
         collapsed: true
-        required: false 
-        fields: 
+        required: false
+        fields:
           - label: 'Image 1'
-            name: "image_1"
-            widget: "object"
+            name: 'image_1'
+            widget: 'object'
             colapsed: false
             fields:
-              - { label: "Image 1 Source", name: "image_1_source", widget: "image" }
-              - { label: "Image 1 Alt", name: "image_1_alt", widget: "string" }
-                
+              - { label: 'Image 1 Source', name: 'image_1_source', widget: 'image' }
+              - { label: 'Image 1 Alt', name: 'image_1_alt', widget: 'string' }
+
           - label: 'Image 2'
-            name: "image_2"
-            widget: "object"
+            name: 'image_2'
+            widget: 'object'
             colapsed: false
             fields:
-              - { label: "Image 2 Source", name: "image_2_source", widget: "image" }
-              - { label: "Image 2 Alt", name: "image_2_alt", widget: "string" }
-                
+              - { label: 'Image 2 Source', name: 'image_2_source', widget: 'image' }
+              - { label: 'Image 2 Alt', name: 'image_2_alt', widget: 'string' }
+
           - label: 'Image 3'
-            name: "image_3"
-            widget: "object"
+            name: 'image_3'
+            widget: 'object'
             colapsed: false
             fields:
-              - { label: "Image 3 Source", name: "image_3_source", widget: "image" }
-              - { label: "Image 3 Alt", name: "image_3_alt", widget: "string" }
-                
-      - { label: 'Info', name: 'info', widget: 'markdown', required: false  }
-        
+              - { label: 'Image 3 Source', name: 'image_3_source', widget: 'image' }
+              - { label: 'Image 3 Alt', name: 'image_3_alt', widget: 'string' }
+
+      - { label: 'Info', name: 'info', widget: 'markdown', required: false }
+
       - label: 'Info Images'
         name: 'info_images'
         widget: 'list'
-        required: false 
+        required: false
         field: { label: 'Image', name: image, widget: image }
 
-      - label: "SEO"
-        name: "seo"
-        widget: "object"
+      - label: 'SEO'
+        name: 'seo'
+        widget: 'object'
         colapsed: false
-        fields: 
-          - {label: "SEO Title", name: "seo_title", widget: "string"}
-          - {label: "SEO Description", name: "seo_description", widget: "string"}
-          - {label: "SEO Image", name: "seo_image", widget: "image"}
+        fields:
+          - { label: 'SEO Title', name: 'seo_title', widget: 'string' }
+          - { label: 'SEO Description', name: 'seo_description', widget: 'string' }
+          - { label: 'SEO Image', name: 'seo_image', widget: 'image' }
 
   - name: 'tags' # Used in routes, e.g., /admin/collections/blog
     label: 'Tags' # Used in the UI
@@ -90,17 +90,17 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Title', name: 'title', widget: 'string' }
-        
-  - name: "colors"
-    label: "Colors"
-    folder: "src/colors/posts"
+
+  - name: 'colors'
+    label: 'Colors'
+    folder: 'src/colors/posts'
     create: true
-    slug: "{{slug}}"
-    fields: 
+    slug: '{{slug}}'
+    fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Color', name: 'color', widget: 'color', enableAlpha: true, allowInput: true }
-        
+
   - name: 'products' # Used in routes, e.g., /admin/collections/blog
     label: 'Products' # Used in the UI
     folder: 'src/products/posts' # The path to the folder where the documents are stored
@@ -109,7 +109,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Title', name: 'title', widget: 'string' }
-        
+
       - label: 'Category'
         name: 'category'
         widget: 'relation'
@@ -117,17 +117,17 @@ collections:
         value_field: 'title'
         search_fields: ['title']
         multiple: false
-        
+
       - label: 'Featured Image'
         name: 'featured_image'
         widget: 'object'
         collapsed: false
-        fields: 
-          - {lable: "Source", name: "source", widget: "image"}
-          - {label: "Alt", name: "alt", widget: "string"}
+        fields:
+          - { lable: 'Source', name: 'source', widget: 'image' }
+          - { label: 'Alt', name: 'alt', widget: 'string' }
 
       - { label: 'Description', name: 'description', widget: 'markdown' }
-        
+
       - label: 'Tags'
         name: 'tags'
         widget: 'relation'
@@ -147,73 +147,73 @@ collections:
       - label: 'Images'
         name: 'images'
         widget: 'list'
-        fields: 
-            - {lable: "Source", name: "source", widget: "image"}
-            - {label: "Alt", name: "alt", widget: "string"}
-
-      - label: "SEO"
-        name: "seo"
-        widget: "object"
-        colapsed: false
-        fields: 
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
-            
-  - label: "Pages"
-    name: "pages"
-    files:
-      - label: "Home Page"
-        name: "home"
-        file: "src/home/home.md"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Intro", name: "intro", widget: "markdown"}
+          - { lable: 'Source', name: 'source', widget: 'image' }
+          - { label: 'Alt', name: 'alt', widget: 'string' }
+
+      - label: 'SEO'
+        name: 'seo'
+        widget: 'object'
+        colapsed: false
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string' }
+          - { label: 'Image', name: 'image', widget: 'image' }
+
+  - label: 'Pages'
+    name: 'pages'
+    files:
+      - label: 'Home Page'
+        name: 'home'
+        file: 'src/home/home.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Intro', name: 'intro', widget: 'markdown' }
           - label: 'Featured Image'
             name: 'featured_image'
             widget: 'object'
             collapsed: false
-            fields: 
-            - {lable: "Source", name: "source", widget: "image"}
-            - {label: "Alt", name: "alt", widget: "string"}
-          - label: "Quotes"
-            name: "quotes"
-            widget: "list"
             fields:
-              - {label: "Quote", name: "quote", widget: "string"}
-          - label: "SEO"
-            name: "seo"
-            widget: "object"
+              - { lable: 'Source', name: 'source', widget: 'image' }
+              - { label: 'Alt', name: 'alt', widget: 'string' }
+          - label: 'Quotes'
+            name: 'quotes'
+            widget: 'list'
+            fields:
+              - { label: 'Quote', name: 'quote', widget: 'string' }
+          - label: 'SEO'
+            name: 'seo'
+            widget: 'object'
             colapsed: false
-            fields: 
-             - {label: "Title", name: "title", widget: "string"}
-             - {label: "Description", name: "description", widget: "string"}
-             - {label: "Image", name: "image", widget: "image"}
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'string' }
+              - { label: 'Image', name: 'image', widget: 'image' }
 
-      - label: "About page"
-        name: "about"
-        file: "src/about/about.md"
+      - label: 'About page'
+        name: 'about'
+        file: 'src/about/about.md'
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Intro", name: "intro", widget: "markdown"}
-          - label: "Parts"
-            name: "part"
-            widget: "list"
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Intro', name: 'intro', widget: 'markdown' }
+          - label: 'Parts'
+            name: 'part'
+            widget: 'list'
             fields:
-              - {label: "Part title", name: "part_title", widget: "string"}
-              - {label: "Info", name: "info", widget: "markdown"}
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Image Alt", name: "image_alt", widget: "string"}
-          - label: "Legal info"
-            name: "legal_info"
-            widget: "list"
+              - { label: 'Part title', name: 'part_title', widget: 'string' }
+              - { label: 'Info', name: 'info', widget: 'markdown' }
+              - { label: 'Image', name: 'image', widget: 'image' }
+              - { label: 'Image Alt', name: 'image_alt', widget: 'string' }
+          - label: 'Legal info'
+            name: 'legal_info'
+            widget: 'list'
             fields:
-              - {label: "Legal text", name: "legal_text", widget: "string"}
-          - label: "SEO"
-            name: "seo"
-            widget: "object"
+              - { label: 'Legal text', name: 'legal_text', widget: 'string' }
+          - label: 'SEO'
+            name: 'seo'
+            widget: 'object'
             colapsed: false
-            fields: 
-             - {label: "Title", name: "title", widget: "string"}
-             - {label: "Description", name: "description", widget: "string"}
-             - {label: "Image", name: "image", widget: "image"}
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'string' }
+              - { label: 'Image', name: 'image', widget: 'image' }

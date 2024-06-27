@@ -28,7 +28,7 @@
 							<a href="/categories/{category.slug}" on:click={() => (open = false)}>
 								<div class="img-container">
 									<div class="image">
-										<Image src={category.image.source} alt={category.image.alt} width={400} />
+										<Image src={category.image.source} alt={category.image.alt} />
 									</div>
 								</div>
 
@@ -58,7 +58,7 @@
 			</nav>
 		{/if}
 		<a href="/" on:click={() => (open = false)}>
-			<img class="logo" src={logo} alt="SG Home decor logo" />
+			<img class="logo" src="../images/sg_logo.svg" alt="SG Home decor logo" />
 		</a>
 
 		<a href="/products" class="button">Products</a>

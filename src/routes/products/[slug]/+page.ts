@@ -4,7 +4,7 @@ import { error } from '@sveltejs/kit'
 export async function load({ params }) {
 
 	try {
-		const product = await import(`../../../products/posts/${params.slug}.md`)
+		const product = await import(`/src/products/posts/${params.slug}.md`)
 		return {
             product: product.metadata as Product,
       

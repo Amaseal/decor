@@ -1,52 +1,50 @@
 <script lang="ts">
-	export let images: ProductImage[];
-	import BiggerPicture from 'bigger-picture/svelte';
-	import 'bigger-picture/css';
-	import { onMount } from 'svelte';
-	import type { ProductImage } from '$lib/types';
-
-	onMount(() => {
-		const bp = BiggerPicture({
-			target: document.getElementById('inline') as HTMLElement
-		});
-
-		let items = images.map((item) => {
-			return {
-				img: item.large,
-				thumb: item.small,
-				height: item.h,
-				width: item.w,
-				alt: item.alt
-			};
-		});
-
-		bp.open({
-			items,
-			scale: 1,
-			intro: 'fadeup',
-			noClose: true,
-			inline: true,
-			maxZoom: 3
-		});
-	});
+	export let images;
+	import { LightboxGallery, GalleryImage, GalleryThumbnail } from 'svelte-lightbox';
+	import { TinySlider } from 'svelte-tiny-slider';
 </script>
 
-<div id="inline" class="inline-gallery" />
+<div id="inline" class="inline-gallery">
+	<LightboxGallery
+		arrowsConfig={{
+			color: 'black',
+			enableKeyboardControl: true,
+			character: 'loop'
+		}}
+	>
+		<svelte:fragment slot="thumbnail">
+			<div class="wrapper">
+				<TinySlider>
+					{#each images as image, index}
+						<GalleryThumbnail id={index}>
+							<img class="thumbnail" src={image.source} alt={image.alt} />
+						</GalleryThumbnail>
+					{/each}
+				</TinySlider>
+			</div>
+		</svelte:fragment>
+
+		{#each images as image}
+			<GalleryImage>
+				<img src={image.source} alt={image.alt} />
+			</GalleryImage>
+		{/each}
+	</LightboxGallery>
+</div>
 
 <style>
-	.inline-gallery {
-		position: relative;
+	.flex {
+		width: 100%;
+		flex-wrap: nowrap; /* Prevent wrapping */
+		overflow-x: auto;
+	}
+	.thumbnail {
+		height: 300px;
+		width: 100vw;
+		max-width: none;
+	}
+	.wrapper {
+		border-radius: var(--size-s);
 		overflow: hidden;
-		z-index: 0;
-	}
-	.inline-gallery:before {
-		content: '';
-		padding-bottom: 66.66%;
-		display: block;
-	}
-	@media only screen and (max-width: 900px) {
-		:global(.bp-wrap > div:first-child) {
-			background: transparent;
-		}
 	}
 </style>
