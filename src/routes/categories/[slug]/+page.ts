@@ -3,10 +3,9 @@ import { error } from '@sveltejs/kit'
 
 export async function load({ params, fetch}) {
 
-    try {
-        let category = await import(`/src/categories/posts/${params.slug}.md`)
 
- 
+
+        let category = await import(`../../../categories/posts/${params.slug}.md`)
 
         const catRes = await fetch('/api/products')
         const productData: Product[] = await catRes.json() 
@@ -25,7 +24,5 @@ export async function load({ params, fetch}) {
             colors,
       
 		}
-	} catch (e) {
-		throw error(404, `Could not find ${params.slug}`)
-	}
+
 }

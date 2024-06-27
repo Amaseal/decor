@@ -5,7 +5,6 @@
 	import { LightboxGallery, GalleryImage, GalleryThumbnail } from 'svelte-lightbox';
 
 	let width: number;
-	$: console.log(width);
 </script>
 
 <svelte:head>

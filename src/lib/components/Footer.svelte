@@ -2,9 +2,6 @@
 	import type { Category } from '../types';
 	import Form from './Form.svelte';
 
-	import sgLogo from '$lib/images/sg.svg';
-	import sgHomeLogo from '$lib/images/sg_logo-01.svg';
-
 	import MdiFacebook from '~icons/mdi/facebook';
 	import MdiInstagram from '~icons/mdi/instagram';
 	import IcBaselineTiktok from '~icons/ic/baseline-tiktok';
@@ -19,11 +16,11 @@
 		<div class="flex gap small footer">
 			<div class="logo">
 				<div class="flex gap small align">
-					<img src="../images/sg_logo-01.svg" alt="logo" />
+					<img src="/images/sg_logo-01.svg" alt="logo" />
 					<p>HANDMADE WOODEN <br /> INTERIOR PRODUCTS</p>
 				</div>
 				<div class="flex gap small align">
-					<img src="../images/sg.svg" alt="logo" />
+					<img src="/images/sg.svg" alt="logo" />
 					<p>JOINERY&CARPENTRY <br /> SERVICES</p>
 				</div>
 			</div>

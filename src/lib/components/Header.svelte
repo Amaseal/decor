@@ -4,8 +4,6 @@
 	import { fly } from 'svelte/transition';
 	export let categories: Category[];
 
-	import logo from '$lib/images/sg_logo.svg';
-
 	import MdiFacebook from '~icons/mdi/facebook';
 	import MdiInstagram from '~icons/mdi/instagram';
 	import IcBaselineTiktok from '~icons/ic/baseline-tiktok';
@@ -58,7 +56,7 @@
 			</nav>
 		{/if}
 		<a href="/" on:click={() => (open = false)}>
-			<img class="logo" src="../images/sg_logo.svg" alt="SG Home decor logo" />
+			<img class="logo" src="/images/sg_logo.svg" alt="SG Home decor logo" />
 		</a>
 
 		<a href="/products" class="button">Products</a>
