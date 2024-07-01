@@ -1,9 +1,16 @@
 <script lang="ts">
 	export let src;
 	export let alt = '';
+	export let size = '';
 </script>
 
-<img {src} {alt} />
+{#if size === 'medium'}
+	<img src={src.replace('/images', '/images/medium')} {alt} />
+{:else if size === 'small'}
+	<img src={src.replace('/images', '/images/small')} {alt} />
+{:else}
+	<img {src} {alt} />
+{/if}
 
 <style>
 	img {

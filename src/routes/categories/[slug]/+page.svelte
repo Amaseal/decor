@@ -50,21 +50,21 @@
 						<Image
 							src={data.category.description_images.image_1.image_1_source}
 							alt={data.category.description_images.image_1.image_1_alt}
-							width={600}
+							size="medium"
 						/>
 					</div>
 					<div class="image">
 						<Image
 							src={data.category.description_images.image_2.image_2_source}
 							alt={data.category.description_images.image_2.image_2_alt}
-							width={600}
+							size="medium"
 						/>
 					</div>
 					<div class="image">
 						<Image
 							src={data.category.description_images.image_3.image_3_source}
 							alt={data.category.description_images.image_3.image_3_alt}
-							width={600}
+							size="medium"
 						/>
 					</div>
 				{/key}
@@ -233,7 +233,7 @@
 									<Image
 										src={product.featured_image.source}
 										alt={product.featured_image.alt}
-										width={400}
+										size="small"
 									/>
 								</div>
 							</div>

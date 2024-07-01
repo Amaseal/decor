@@ -20,7 +20,7 @@
 			<div class="flex collumn">
 				{#each data.category.info_images as image}
 					<div class="image">
-						<Image src={image} alt="" width={600} />
+						<Image src={image} alt="" size="medium" />
 					</div>
 				{/each}
 			</div>

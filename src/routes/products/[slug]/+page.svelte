@@ -32,7 +32,11 @@
 								<div class="image">
 									<GalleryThumbnail id={index}>
 										<div class="wrapper">
-											<img class="thumbnail thmb" src={image.source} alt={image.alt} />
+											<img
+												class="thumbnail thmb"
+												src={image.source.replace('/images', '/images/medium')}
+												alt={image.alt}
+											/>
 										</div>
 									</GalleryThumbnail>
 								</div>

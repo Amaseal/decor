@@ -230,7 +230,7 @@
 									<Image
 										src={product.featured_image.source}
 										alt={product.featured_image.alt}
-										width={400}
+										size="small"
 									/>
 								</div>
 							</div>

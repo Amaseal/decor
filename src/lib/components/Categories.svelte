@@ -19,7 +19,7 @@
 				<a href="/categories/{category.slug}">
 					<div class="img-container">
 						<div class="image">
-							<Image src={category.image.source} alt={category.image.alt} />
+							<Image src={category.image.source} alt={category.image.alt} size="small" />
 						</div>
 					</div>
 

@@ -17,7 +17,7 @@
 		<div class="images">
 			{#each data.part as part}
 				<div class="image">
-					<Image src={part.image} alt={part.image_alt} width={600} />
+					<Image src={part.image} alt={part.image_alt} size="medium" />
 				</div>
 			{/each}
 		</div>

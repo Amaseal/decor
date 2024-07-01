@@ -7,12 +7,7 @@
 <section>
 	<div class="container flex gap align">
 		<div class="heroImage">
-			<Image
-				src={data.featured_image.source}
-				alt={data.featured_image.alt}
-				width={800}
-				loading="eager"
-			/>
+			<Image src={data.featured_image.source} alt={data.featured_image.alt} size="medium" />
 		</div>
 
 		<div class="flex collumn left full-height info">
