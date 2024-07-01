@@ -5,7 +5,6 @@ layout: blog
 title: Other products
 order: 5
 tags:
-  - For Record Players
   - Easter
 image:
   source: /images/plates-turetajs-27-.jpg
@@ -17,7 +16,7 @@ description: >-
   Key Holders to make your home more welcoming. Record player stands for the ones who want to make their house sound like a home. Kitchenware for the cooking time to feel wonderful.
 description_images:
   image_1:
-    image_1_source: /images/plates-turetajs-41-3-.jpg
+    image_1_source: /images/plates-turetajs-6-.jpg
     image_1_alt: Now Spinning Record Player holder
   image_2:
     image_2_source: /images/4-1-1-.jpg
