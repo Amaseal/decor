@@ -22,6 +22,12 @@ description: >-
   We deliver stands pre-assembled, you will need only to put a wooden slat in the groove so that your device does not slide down. 
 
 
+  **Colourway:** 
+
+
+  This particular design is made out of Oak wood and varnished
+
+
   **Size:**
 
 
@@ -67,6 +73,8 @@ images:
     alt: Laptop Stand Natural Oak
   - source: /images/whatsapp-image-2024-05-24-at-10.01.14.jpeg
     alt: Laptop Stand Natural Oak
+  - source: /images/whatsapp-image-2024-05-23-at-21.45.06.jpeg
+    alt: Laptop stand
 seo:
   title: Laptop stand oak wood laptop riser Laptop desk MacBook stand Desk
     organizer Gifts for him MacBook holder Wood computer stand
