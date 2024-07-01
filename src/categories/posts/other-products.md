@@ -6,6 +6,8 @@ title: Other products
 order: 5
 tags:
   - Easter
+  - Table setting
+  - For  Record Players
 image:
   source: /images/plates-turetajs-27-.jpg
   alt: Other products - record player holder
