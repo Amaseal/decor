@@ -47,7 +47,7 @@ description: >-
 
 
   **<https://www.etsy.com/shop/ighomedecorstore>**
-tags: For Record Players
+tags: For  Record Players
 color:
   - Natural oak
   - Walnut tree
