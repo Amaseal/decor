@@ -10,6 +10,7 @@ tags:
   - For  Record Players
   - "Key Holders "
   - Hooks
+  - Kitchen Products
 image:
   source: /images/plates-turetajs-27-.jpg
   alt: Other products - record player holder
