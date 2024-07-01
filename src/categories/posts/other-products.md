@@ -8,6 +8,8 @@ tags:
   - Easter
   - Table setting
   - For  Record Players
+  - "Key Holders "
+  - Hooks
 image:
   source: /images/plates-turetajs-27-.jpg
   alt: Other products - record player holder
