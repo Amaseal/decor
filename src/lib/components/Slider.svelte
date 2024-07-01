@@ -17,7 +17,11 @@
 				<TinySlider>
 					{#each images as image, index}
 						<GalleryThumbnail id={index}>
-							<img class="thumbnail" src={image.source} alt={image.alt} />
+							<img
+								class="thumbnail"
+								src={image.source.replace('/images', '/images/small')}
+								alt={image.alt}
+							/>
 						</GalleryThumbnail>
 					{/each}
 				</TinySlider>
