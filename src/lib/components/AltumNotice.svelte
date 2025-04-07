@@ -4,7 +4,7 @@
 		<img src="/altum.png" alt="ALTUM logo" />
 	</div>
 	<div>This project is co-financed by ALTUM and the European Union.</div>
-	<a href="./plakats.pdf" target="_blank" rel="noopener noreferrer">View full poster</a>
+	<a href="/plakats.pdf" target="_blank" rel="noopener noreferrer">View full poster</a>
 </div>
 
 <style>
