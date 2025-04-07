@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Image from '$lib/components/Image.svelte';
+	import Seo from '$lib/components/Seo.svelte';
 
 	export let data;
 	// @ts-ignore
@@ -34,11 +35,7 @@
 	let filterOpen = false;
 </script>
 
-<svelte:head>
-	<title>{data.category.seo.seo_title}</title>
-	<meta name="description" content={data.category.seo.description} />
-</svelte:head>
-
+<Seo data={data.category} />
 <svelte:window bind:innerHeight={height} bind:innerWidth={width} />
 
 <section class="header">

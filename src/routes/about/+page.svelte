@@ -1,14 +1,12 @@
 <script lang="ts">
+	import AltumNotice from '$lib/components/AltumNotice.svelte';
 	import Image from '$lib/components/Image.svelte';
+	import Seo from '$lib/components/Seo.svelte';
 
 	export let data;
 </script>
 
-<svelte:head>
-	<title>SG Home Decor | {data.about.seo.title}</title>
-	<meta name="description" content={data.about.seo.description} />
-</svelte:head>
-
+<Seo data={data.about} />
 <section>
 	<div class="container">
 		{#each data.about.part as part}
@@ -18,10 +16,11 @@
 					<p>{part.info}</p>
 				</div>
 				<div class="image">
-					<Image src={part.image} alt={part.image_alt} width={800} />
+					<Image src={part.image} alt={part.image_alt} />
 				</div>
 			</div>
 		{/each}
+		<AltumNotice />
 		<h2>Legal info:</h2>
 		{#each data.about.legal_info as legal}
 			<p>{legal.legal_text}</p>

@@ -3,14 +3,12 @@
 	import Slider from '$lib/components/Slider.svelte';
 	import SvelteMarkdown from 'svelte-markdown';
 	import { LightboxGallery, GalleryImage, GalleryThumbnail } from 'svelte-lightbox';
+	import Seo from '$lib/components/Seo.svelte';
 
 	let width: number;
 </script>
 
-<svelte:head>
-	<title>{data.product.seo.title}</title>
-	<meta name="description" content={data.product.seo.description} />
-</svelte:head>
+<Seo data={data.product} />
 <svelte:window bind:outerWidth={width} />
 
 <section>
